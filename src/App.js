@@ -8,12 +8,12 @@ function App() {
     <Routes>
       <Route paht="/" element={<Layout/>}>
         <Route path="/" element={<Home/>}/>
-        <Route path="/beginners" element="Beginners" />
-        <Route path="/advanced" element="Advanced" />
+        <Route path="/about" element="About company" />
+        <Route path="/history" element="History" />
         <Route path="/characters" element="Characters" />
-        <Route path="/enemies" element="Enemies" />
         <Route path="/forum" element="Forum" />
-        <Route path="/authorization" element="Authorization" />
+        <Route path="/questions" element="FAQ" />
+        <Route path="/register" element="Register" />
         <Route path="/profile" element="Profile" />
       </Route>
     </Routes>
