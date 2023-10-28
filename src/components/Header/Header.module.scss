@@ -1,5 +1,5 @@
 .header {
-  padding: 20px 0;
+  padding: 20px 100px;
   position: fixed;
   width: 100%;
   background-image: linear-gradient(
@@ -20,13 +20,13 @@
       align-items: center;
 
       .logo img {
-        width: 90%;
+        width: 80%;
         text-align: center;
         cursor: pointer;
       }
 
       .name img {
-        width: 45%;
+        width: 40%;
       }
     }
 
