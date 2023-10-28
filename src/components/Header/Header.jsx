@@ -1,13 +1,13 @@
 import React, { useState } from "react";
 import styles from "./Header.module.scss";
-import { Link, useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 import logo from "../../assets/images/logo.png";
 import name from "../../assets/images/name.png";
 
 export const Header = () => {
   return (
     <header className={styles.header}>
-      <div className={`${styles.header__content} ${"container"}`}>
+      <div className={`${styles.header__content} `}>
         <nav className={styles.header__nav}>
           <div className={styles.header__nav_logo}>
             <div className={styles.logo}>
@@ -15,9 +15,10 @@ export const Header = () => {
               <img src={logo} alt="logo"  />
             </Link>
             </div>
-
             <div className={styles.name}>
+              <Link to="/">
               <img src={name} alt="name" />
+              </Link>
             </div>
           </div>
           <div className={styles.header__div}>
@@ -26,7 +27,7 @@ export const Header = () => {
                 About
               </Link>
               <Link className={styles.header__link} to="/history">
-                Hispory
+                History
               </Link>
               <Link className={styles.header__link} to="/characters">
                 Characters
