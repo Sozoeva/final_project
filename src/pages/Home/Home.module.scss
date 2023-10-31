@@ -31,20 +31,6 @@
       align-items: center;
       justify-content: center;
       gap: 2%;
-
-      button {
-        background-color: rgba(235, 240, 250, 0.5);
-        padding: 10px 100px;
-        color: white;
-        border-radius: 10px 0 10px 0;
-        backdrop-filter: blur(60px);
-        border: none;
-        cursor: pointer;
-
-        &:hover {
-          background-color: rgba(235, 240, 250, 0.7);
-        }
-      }
     }
   }
 
@@ -79,9 +65,5 @@
       width: 100%;
       z-index: -1;
     }
-  }
-
-  .home__forum {
-    
   }
 }

@@ -18,3 +18,8 @@
     text-decoration: none;
     color: white;
   }
+
+  h2 {
+    text-transform: uppercase;
+    color: white;
+  }

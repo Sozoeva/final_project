@@ -3,6 +3,6 @@ import styles from "./Footer.module.scss"
 
 export const Footer = () => {
   return (
-    <div>Footer</div>
+    <div className={styles.footer}>  Footer</div>
   )
 }
