@@ -1,0 +1,13 @@
+.button {
+    background-color: rgba(235, 240, 250, 0.5);
+    padding: 10px 30px;
+    color: white;
+    border-radius: 10px 0 10px 0;
+    backdrop-filter: blur(60px);
+    border: none;
+    cursor: pointer;
+
+    &:hover {
+      background-color: rgba(235, 240, 250, 0.7);
+    }
+}

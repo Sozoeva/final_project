@@ -1,0 +1,115 @@
+
+  {
+    "characters": [
+      {
+        "id": 1,
+        "name": "Lue Kang",
+        "imagesSmall": "https://cdn-mk1.mortalkombat.com/roster/liu-kang/thumb.webp",
+        "imagesLarge": "https://cdn-mk1.mortalkombat.com/roster/liu-kang/hero.webp",
+        "description": "Having won control of the Hourglass, Liu Kang restarted history. He neutralized the threats and dangers that had come before, crafting a New Era in which all beings would have the opportunity to find peace. But that peace is now threatened by an enemy that Liu Kang could never have anticipated. It will take all of his wisdom and experience to save not only Earthrealm, but all of reality.",
+        "characteristic": "SECURITY",
+        "voice":"",
+        "animation": "",
+        "style": "fire"
+      },
+      {
+        "id": 2,
+        "name": "Sub-Zero",
+        "imagesSmall": "https://cdn-mk1.mortalkombat.com/roster/sub-zero/thumb.webp",
+        "imagesLarge": "https://cdn-mk1.mortalkombat.com/roster/sub-zero/hero.webp",
+        "description": "As the Lin Kuei's Grandmaster, Sub-Zero leads his ancient warrior clan in the defense of Earthrealm from external threats. For centuries, it has been their solemn task. But Earthrealm hasn’t been threatened in generations, and Sub-Zero sees no point in limiting his clan to preparing for dangers that may never come. Under his leadership, the Lin Kuei will come out of the shadows and fight for its place as one of Earthrealm’s great nations.",
+        "characteristic": "POWER",
+        "voice":"",
+        "animation": "",
+        "style": "frozen"
+      },
+      {
+        "id": 3,
+        "name": "Scorpion",
+        "imagesSmall": "https://cdn-mk1.mortalkombat.com/roster/scorpion/thumb.webp",
+        "imagesLarge": "https://cdn-mk1.mortalkombat.com/roster/scorpion/hero.webp",
+        "description": "ALike his cherished father, Scorpion is dedicated to the Lin Kuei and its defense of Earthrealm. When his father died, Scorpion was bereft. Though he took pride in knowing that his brother, Sub-Zero, would succeed their father as the Lin Kuei's Grandmaster. But Sub-Zero's unprecedented moves to cast off the Lin Kuei's traditional duties have frozen Scorpion’s enthusiasm. He fears that he may one day have to battle his brother for control of the Lin Kuei's legacy.",
+        "characteristic": "HONOR",
+        "voice":"",
+        "animation": "",
+        "style": "fire"
+      },
+      {
+        "id": 4,
+        "name": "Kitana",
+        "imagesSmall": "https://cdn-mk1.mortalkombat.com/roster/kitana/thumb.webp",
+        "imagesLarge": "https://cdn-mk1.mortalkombat.com/roster/kitana/hero.webp",
+        "description": "Kitana has one purpose in life: to aid and protect her older sister, Mileena, as she prepares to rule Outworld one day. The steady-handed Kitana ignores the calls of those who advocate that she should replace her impulsive sister as heir. Instead, Kitana will defend the realm by fighting to make Mileena the best Empress possible. She will also fight to hide the dark secret that could end her sister's reign before it begins.",
+        "characteristic": "DUTY",
+        "voice":"",
+        "animation": "",
+        "style": "hand-to-hand"
+      },
+      {
+        "id": 5,
+        "name": "Johnny Cage",
+        "imagesSmall": "https://cdn-mk1.mortalkombat.com/roster/johnny-cage/thumb.webp",
+        "imagesLarge": "https://cdn-mk1.mortalkombat.com/roster/johnny-cage/hero.webp",
+        "description": "KLike many stars before him, Johnny became addicted to his fame. He came to measure his self-worth by his fans' adoration and their praise of him on social media. But with his star now fading, Johnny is fighting an uphill battle to remain relevant. He joins Liu Kang’s Earthrealm champions hoping that it will provide his career and his fame a desperately needed boost.",
+        "characteristic": "VANITY",
+        "voice":"",
+        "animation": "",
+        "style": "hand-to-hand"
+      },
+      {
+        "id": 6,
+        "name": "Kenshi Takahashi",
+        "imagesSmall": "https://cdn-mk1.mortalkombat.com/roster/kenshi-takahashi/thumb.webp",
+        "imagesLarge": "https://cdn-mk1.mortalkombat.com/roster/kenshi-takahashi/hero.webp",
+        "description": "Once one of ancient Japan's most honored families, the Takahashis were decimated in battle. They lost everything, including the emblem of their power: the revered sword, Sento. Those who survived joined the Bakuto, a predecessor of the Yakuza, for its protection. Five centuries later, Kenshi is raised on the stories of his ancient family's exploits. Detesting his corrupt Yakuza life, he pines to free the Takahashis from the Yakuza's grasp and restore their name. But for his family to follow him, Kenshi must first fight to prove that he can lead. His first battle is to find and retrieve Sento.",
+        "characteristic": "REVIVAL",
+        "voice":"",
+        "animation": "",
+        "style": "hand-to-hand"
+      },
+      {
+        "id": 7,
+        "name": "Kung Lao",
+        "imagesSmall": "https://cdn-mk1.mortalkombat.com/roster/kung-lao/thumb.webp",
+        "imagesLarge": "https://cdn-mk1.mortalkombat.com/roster/kung-lao/hero.webp",
+        "description": "Born and raised in the village of Fengjian, Kung Lao has spent his life toiling in the fields. It has been an honorable life, if not a glorious one. Kung Lao’s greatest fear is that his life will amount to nothing. He prays fervently that he will be called to do something bigger. His prayers are answered when he is asked to join the champions of Earthrealm. As a warrior fighting for its honor, Kung Lao knows that his victories will be long remembered.",
+        "characteristic": "PRESTIGE",
+        "voice":"",
+        "animation": "",
+        "style": "hand-to-hand"
+      },
+      {
+        "id": 8,
+        "name": "Mileena",
+        "imagesSmall": "https://cdn-mk1.mortalkombat.com/roster/mileena/thumb.webp",
+        "imagesLarge": "https://cdn-mk1.mortalkombat.com/roster/mileena/hero.webp",
+        "description": "Born mere seconds ahead of her twin sister, Mileena is the rightful heir to Outworld’s throne. But even so, there are those who distrust Mileena’s impulsiveness. They whisper that Kitana, with her steadier hand, should replace Mileena as heir to the throne. As Mileena fights for legitimacy, she hides a horrible secret: she is infected with the dreaded and lethal Tarkat disease. Were her affliction found out, Mileena would be forced into battle to save her throne.",
+        "characteristic": "PRESTIGE",
+        "voice":"",
+        "animation": "",
+        "style": "hand-to-hand"
+      },
+      {
+        "id": 9,
+        "name": "Raiden",
+        "imagesSmall": "https://cdn-mk1.mortalkombat.com/roster/raiden/thumb.webp",
+        "imagesLarge": "https://cdn-mk1.mortalkombat.com/roster/raiden/hero.webp",
+        "description": "In the village of Fengjian, Raiden was known for his kindness and his charity. He was happy to spend his days tending to the fields, as well as to his friends and family. So when he is asked to leave Fengjian and become one of Earthrealm’s champions, Raiden hesitates. But he soon realizes that to best serve his village, he must join them. As threats to Earthrealm mount, Raiden must mature into the great warrior that Liu Kang knows he can be.",
+        "characteristic": "STABILITY",
+        "voice":"",
+        "animation": "",
+        "style": "hand-to-hand"
+      },
+      {
+        "id": 10,
+        "name": "Rain",
+        "imagesSmall": "https://cdn-mk1.mortalkombat.com/roster/rain/thumb.webp",
+        "imagesLarge": "https://cdn-mk1.mortalkombat.com/roster/rain/hero.webp",
+        "description": "As a student at Outworld’s exclusive Imperial Academy of Sorcery, Rain amazed his peers with his singular aptitude for water magic. Having honed his craft of water magic into a fierce weapon, he now hopes to learn the realms’ darkest and most powerful sorcery.",
+        "characteristic": "AMBITION",
+        "voice":"",
+        "animation": "",
+        "style": "hand-to-hand"
+      }
+    ]
+  }

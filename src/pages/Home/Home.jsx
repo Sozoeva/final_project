@@ -5,6 +5,7 @@ import { useNavigate } from "react-router";
 import { Carousel } from "antd";
 import fist_slider from "../../assets/images/first_slider_img.jpeg";
 import heroes_img from "../../assets/images/heroes.jpg"
+import { Button } from "../../shared";
 
 export const Home = () => {
   const navigate = useNavigate();
@@ -22,15 +23,15 @@ export const Home = () => {
         <section className={styles.home__title}>
           <h1>Welcome to Mortal Combat</h1>
           <div className={styles.home__title_btns}>
-            <button>
+            <Button>
               <a
                 href="https://www.youtube.com/watch?v=UZ6eFEjFfJ0"
                 target="_blank"
               >
                 Watch trailer
               </a>
-            </button>
-            <button onClick={showAboutPage}>Learn more</button>
+            </Button>
+            <Button onClick={showAboutPage}>Learn more</Button>
           </div>
         </section>
         <section className={styles.home__about}>
@@ -72,7 +73,6 @@ export const Home = () => {
         <section className={styles.home__hero}>
           <img src={heroes_img} alt="" />
           <h2>Become the best player</h2>
-          
         </section>
         <section className={styles.home__forum}>
           <h2>Be the first to know everything</h2>

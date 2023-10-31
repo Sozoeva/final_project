@@ -1,0 +1,57 @@
+.wrapper {
+  position: relative;
+  color: rgba(0, 0, 0, 1);
+
+  .wrapper__img {
+    width: 100%;
+    position: fixed;
+    z-index: -2;
+  }
+
+  h2 {
+    font-size: 48px;
+    text-align: center;
+    padding-top: 9%;
+    text-transform: uppercase;
+  }
+
+  .characters {
+    padding: 2% 5%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 2%;
+
+
+    .character {
+      position: relative;
+          transition: 0.3s;
+
+
+      img {
+        background-image: linear-gradient(
+          to bottom,
+          rgba(172, 205, 240, 0.6),
+          rgba(0, 0, 0, 1)
+        );
+        z-index: 12;
+        width: 100%;
+        border: 2px solid white;
+        
+      }
+
+
+      &__name {
+        position: absolute;
+        left: 2%;
+        bottom: 8px;
+        text-transform: uppercase;
+      }
+
+  
+        &:hover {
+          transform: scale(1.04);
+        }
+    }
+  }
+}
