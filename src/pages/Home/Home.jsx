@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./Home.module.scss";
-// import video from "../../assets/video/video.mp4";
+import video from "../../assets/video/video.mp4";
 import { useNavigate } from "react-router";
 import { Carousel } from "antd";
 import { Button } from "../../shared";
@@ -16,9 +16,9 @@ export const Home = () => {
   return (
     <main className={styles.wrapper}>
       <div className={styles.home}>
-        {/* <video autoPlay loop muted className={styles.home__video}>
+        <video autoPlay loop muted className={styles.home__video}>
           <source src={video} type="video/mp4" />
-        </video> */}
+        </video>
         <section className={styles.home__title}>
           <h1>Welcome to Mortal Combat</h1>
           <div className={styles.home__title_btns}>
