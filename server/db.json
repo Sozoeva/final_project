@@ -110,6 +110,127 @@
         "voice":"",
         "animation": "",
         "style": "hand-to-hand"
+      },
+      {
+        "id": 11,
+        "name": "Smoke",
+        "imagesSmall": "https://cdn-mk1.mortalkombat.com/roster/smoke/thumb.webp",
+        "imagesLarge": "https://cdn-mk1.mortalkombat.com/roster/smoke/hero.webp",
+        "description": "As a boy, Smoke lived to hunt with his family. Their final hunt, however, ended in tragedy. Having accidentally trespassed onto Lin Kuei lands, they were attacked. Smoke was orphaned.Ashamed by his warriors' actions, the Lin Kuei's Grandmaster adopted Smoke. He raised him alongside his sons, Sub-Zero and Scorpion. Eventually, Smoke chose to make the Lin Kuei’s mission his own. But as he lacked his brothers' innate supernatural abilities, he set out to master practical magic. Having done so. he now joins them in Earthrealm's defense.",
+        "characteristic": "LOYALTY",
+        "voice":"",
+        "animation": "",
+        "style": "hand-to-hand"
+      },
+      {
+        "id": 12,
+        "name": "Li Mei",
+        "imagesSmall": "https://cdn-mk1.mortalkombat.com/roster/li-mei/thumb.webp",
+        "imagesLarge": "https://cdn-mk1.mortalkombat.com/roster/li-mei/hero.webp",
+        "description": "As her parents’ firstborn daughter, Li Mei was claimed by the Umgadi, the warrior priestesses who guard Outworld’s royal family. Li Mei’s service began with high expectations. Her early success caught the eye of the Royal family. But it all fell apart when a terrible tragedy unfolded. Li Mei was blamed for this and In the aftermath, she did the unthinkable: she quit the Umgadi. Friendless and alone, Li Mei needed a new purpose. She joined Sun Do’s constables, the Outworld capital’s rough and tumble police force. Over time, she became their First Constable. Li Mei is glad to be the capital guardian. Still, she hopes one day to redeem herself.",
+        "characteristic": "REDEMPTION",
+        "voice":"",
+        "animation": "",
+        "style": "hand-to-hand"
+      },
+      {
+        "id": 13,
+        "name": "Baraka",
+        "imagesSmall": "https://cdn-mk1.mortalkombat.com/roster/baraka/thumb.webp",
+        "imagesLarge": "https://cdn-mk1.mortalkombat.com/roster/baraka/hero.webp",
+        "description": "Baraka was once a respected Outworld merchant. But that life ended in an instant when he contracted the dreaded Tarkat plague. Incurable, contagious, and the cause of severe physical deformities, Tarkat turned Baraka into a monster. He was cast out and doomed to live out his days in a colony of similarly afflicted Outworlders. When Baraka first arrived, the colony was in disarray. His fellow Tarkatans had given up and were ready to die. Their hopelessness lit a fire in Baraka’s heart. He spares no effort to better his fellow Tarkatans’ lives. He knows that as long as he fights, he will never truly be a victim.",
+        "characteristic": "PRESERVATION",
+        "voice":"",
+        "animation": "",
+        "style": "hand-to-hand"
+      },
+      {
+        "id": 14,
+        "name": "Tanya",
+        "imagesSmall": "https://cdn-mk1.mortalkombat.com/roster/tanya/thumb.webp",
+        "imagesLarge": "https://cdn-mk1.mortalkombat.com/roster/tanya/hero.webp",
+        "description": "Chosen as an infant from Outworld’s first-born daughters, Tanya was raised by the Umgadi’s priestesses. She’s never known her birth family. As she grew older and saw other initiates wash out, Tanya feared that she would share their fate. But that fear spurred success; after many attempts, Tanya passed her trials and became a full Umgadi. Over time, Tanya became one of the order’s most trusted members. She was the obvious choice when it needed to choose a new leader for the royal family’s personal guard. As an Umgadi, Tanya is sworn to piety and chastity. That is why her bond with Princess Mileena, were it known, would cause a scandal. By following her heart, Tanya risks not only her position but also her life.",
+        "characteristic": "PROTECTION",
+        "voice":"",
+        "animation": "",
+        "style": "hand-to-hand"
+      },
+      {
+        "id": 15,
+        "name": "Geras",
+        "imagesSmall": "https://cdn-mk1.mortalkombat.com/roster/geras/thumb.webp",
+        "imagesLarge": "https://cdn-mk1.mortalkombat.com/roster/geras/hero.webp",
+        "description": "Reconstructed by Liu Kang at the dawn of his New Era, Geras remains eternal and unkillable. He retains the memories of all the innumerable timelines he has watched pass and fade. In this New Era, Geras monitors events to make sure that they are faithful to Liu Kang’s vision. When they deviate from their intended path, it is Geras’s responsibility to correct them. As threats begin to mount, Geras works tirelessly to defend reality. But to succeed, he must first identify the mastermind behind the plot to destroy Liu Kang’s New Era.",
+        "characteristic": "SERVICE",
+        "voice":"",
+        "animation": "",
+        "style": "hand-to-hand"
+      },
+      {
+        "id": 16,
+        "name": "Reptile",
+        "imagesSmall": "https://cdn-mk1.mortalkombat.com/roster/reptile/thumb.webp",
+        "imagesLarge": "https://cdn-mk1.mortalkombat.com/roster/reptile/hero.webp",
+        "description": "Reconstructed by Liu Kang at the dawn of his New Era, Geras remains eternal and unkillable. He retains the memories of all the innumerable timelines he has watched pass and fade. In this New Era, Geras monitors events to make sure that they are faithful to Liu Kang’s vision. When they deviate from their intended path, it is Geras’s responsibility to correct them. As threats begin to mount, Geras works tirelessly to defend reality. But to succeed, he must first identify the mastermind behind the plot to destroy Liu Kang’s New Era.",
+        "characteristic": "FREEDOM",
+        "voice":"",
+        "animation": "",
+        "style": "hand-to-hand"
+      },
+      {
+        "id": 17,
+        "name": "Sindel",
+        "imagesSmall": "https://cdn-mk1.mortalkombat.com/roster/ashrah/thumb.webp",
+        "imagesLarge": "https://cdn-mk1.mortalkombat.com/roster/ashrah/hero.webp",
+        "description": "As a demon, all Ashrah knew was pain and violence. She assumed all beings, in all realms, lived as she did. But once she journeyed outside of the Netherrealm, she realized her error. Other realms were places of beauty and peace. She could not aid in their defilement. Ashrah fled from her sister demons. Along the way, she found an enchanted kriss. It was a demon slayer, which she used to finish her pursuers. She was stunned to discover that using the kriss to destroy evil was purifying her soul. And that if she continued to do so, she could free herself from the Netherrealm.Ashrah senses that her final absolution is near. Once achieved, she will finally enter the light.",
+        "characteristic": "ABSOLUTION",
+        "voice":"",
+        "animation": "",
+        "style": "hand-to-hand"
+      },
+      {
+        "id": 18,
+        "name": "Sindel",
+        "imagesSmall": "https://cdn-mk1.mortalkombat.com/roster/sindel/thumb.webp",
+        "imagesLarge": "https://cdn-mk1.mortalkombat.com/roster/sindel/hero.webp",
+        "description": "AWhen Sindel ascended to Outworld's throne, she worried that she was ill-prepared. Adding to her stress: her impending arranged marriage to Jerrod, an Outworld noble. Forced into it to placate a rebellious region, Sindel could only pray that he was worthy. To Sindel’s delight, Jerrod proved an ideal partner. Her early reign marked the start of a new Golden Age. Sindel then welcomed her beautiful twin daughters, Mileena and Kitana. She thanked the Gods for her charmed life. But Sindel had counted her blessings too quickly. When Jerrod was murdered, Sindel’s heart was broken. Smelling weakness, factions formed to challenge her rule. As her enemies conspire, Sindel fights to protect her family and her empire. She will do whatever it takes to defend her daughters’ birthright",
+        "characteristic": "STABILITY",
+        "voice":"",
+        "animation": "",
+        "style": "hand-to-hand"
+      },
+      {
+        "id": 19,
+        "name": "Nitara",
+        "imagesSmall": "https://cdn-mk1.mortalkombat.com/roster/nitara/thumb.webp",
+        "imagesLarge": "https://cdn-mk1.mortalkombat.com/roster/nitara/hero.webp",
+        "description": "Nitara’s race of vampires hails from the dark and desolate realm of Vaeternus. To survive, they evolved the ability to feed on the blood of other creatures. The Vaeternians thrived, building a great society. But as their comfort grew, so did their shortsightedness. They overfed on Vaeternus’ creatures, disrupting the natural order. They now starve as it collapses. It is Nitara's solemn obligation to deliver her people from hunger and save her race. Vaeternus must survive.",
+        "characteristic": "DELIVERANCE",
+        "voice":"",
+        "animation": "",
+        "style": "hand-to-hand"
+      },
+      {
+        "id": 20,
+        "name": "Shang Tsung",
+        "imagesSmall": "https://cdn-mk1.mortalkombat.com/roster/shang-tsung/thumb.webp",
+        "imagesLarge": "https://cdn-mk1.mortalkombat.com/roster/shang-tsung/hero.webp",
+        "description": "NShang Tsung grew up in Outworld’s backwaters. Too lazy for hard labor and too shifty for honest work, he eked out a living selling quack cures and fake magic. Though his wares were useless, Shang Tsung’s easy charm always closed the deal. Shang Tsung was resigned to this hardscrabble life. But then one day a mysterious stranger came, promising to make Shang Tsung a powerful sorcerer. Though suspicious of the offer, it was one he couldn’t refuse.",
+        "characteristic": "INFLUENCE",
+        "voice":"",
+        "animation": "",
+        "style": "hand-to-hand"
+      },
+      {
+        "id": 21,
+        "name": "Reiko",
+        "imagesSmall": "https://cdn-mk1.mortalkombat.com/roster/reiko/thumb.webp",
+        "imagesLarge": "https://cdn-mk1.mortalkombat.com/roster/reiko/hero.webp",
+        "description": "Reiko was a boy when he and his family were captured during the Kafallah War. Though his family died, Reiko fought and survived. After spending months as a prisoner, Reiko was freed during a raid by General Shao. Despite his youth and small size, Reiko attacked his former captors and exacted bloody revenge. Impressed by the boy’s spirit, General Shao made Reiko his squire. Under his tutelage, Reiko learned the ways of war. He became an exceptional soldier and is now the General’s second-in-command. Reiko’s loyalty to General Shao is absolute. He will live and die by his orders.",
+        "characteristic": "FEALTY",
+        "voice":"",
+        "animation": "",
+        "style": "hand-to-hand"
       }
     ]
   }

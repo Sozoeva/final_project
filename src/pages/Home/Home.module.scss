@@ -1,14 +1,22 @@
 .home {
   position: relative;
 
-  video {
+.home__line {
+  position: absolute;
+  padding: 0.5px 0;
+
+  width: 100%;
+  background-color: rgba(150,0,24, 0.5);
+}
+
+  .home__video {
     position: absolute;
     width: 100%;
     z-index: -1;
   }
 
   .home__title {
-    padding: 30% 0 19% 0;
+    padding: 20% 0 14% 0;
     text-align: center;
     background-image: linear-gradient(
       to bottom,
@@ -23,7 +31,6 @@
     h1 {
       text-transform: uppercase;
       font-size: 60px;
-      color: white;
     }
 
     .home__title_btns {
@@ -36,7 +43,7 @@
 
   .home__about {
     margin-top: -3%;
-    padding: 2% 4%;
+    padding: 5% 4%;
     background-color: black;
     color: white;
     display: flex;
@@ -47,12 +54,31 @@
       display: flex;
       flex-direction: column;
       justify-content: center;
+      gap: 5%;
       width: 50%;
       text-align: center;
+
+      h2 {
+        font-size: 28px;
+      }
+
+      p {
+        font-size: 24px;
+      }
     }
 
     &_imgs {
       width: 50%;
+
+      h3 {
+        font-size: 18px;
+        margin-bottom: 2%;
+      }
+
+      img {
+        width: 100%;
+        border: 6px solid rgba(150,0,24, 0.5)
+      }
     }
   }
 
@@ -60,10 +86,35 @@
     position: relative;
     color: white;
 
+
     img {
       position: absolute;
       width: 100%;
       z-index: -1;
     }
+
+    &_content {
+      padding: 20% 20%;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      gap: 20px;
+
+      h2 {
+        font-size: 28px;
+      }
+
+      video {
+        text-align: center;
+        width: 100%;
+        height: 200px;
+      }
+
+    }
+
+  }
+
+  .home__forum {
+    background-color: black;
   }
 }

@@ -1,7 +1,6 @@
 import { createSlice } from "@reduxjs/toolkit";
 import { getCharacterById, getCharacters } from "../actions";
 
-
 const initialState = {
     characters: [],
     selectedCharacter: null

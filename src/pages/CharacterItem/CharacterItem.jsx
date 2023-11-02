@@ -4,6 +4,7 @@ import { getCharacterById } from "../../store";
 import { useParams } from "react-router";
 import { Button } from "../../shared";
 import { Link } from "react-router-dom";
+import {BsPlayCircle} from "react-icons/bs"
 import styles from "./CharacterItem.module.scss";
 
 
@@ -30,6 +31,9 @@ export const CharacterItem = () => {
           <h4>{selectedCharacter.characteristic}</h4>
           <h3>{selectedCharacter.name}</h3>
           <p>{selectedCharacter.description}</p>
+          <span>
+          <button><BsPlayCircle/></button>
+          </span>
           <Link to="/characters">
           <Button>Back to list</Button>
           </Link>

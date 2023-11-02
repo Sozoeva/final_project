@@ -15,7 +15,7 @@ export const Characters = () => {
 
   return (
     <div className={styles.wrapper}>
-      <img src={bgr} alt="" className={styles.wrapper__img} />
+      {/* <img src={bgr} alt="" className={styles.wrapper__img} /> */}
       <h2>Choose your hero</h2>
       <div className={`${styles.characters}`}>
         {characters.map((character) => (

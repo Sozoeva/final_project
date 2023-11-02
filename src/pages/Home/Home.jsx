@@ -3,9 +3,8 @@ import styles from "./Home.module.scss";
 import video from "../../assets/video/video.mp4";
 import { useNavigate } from "react-router";
 import { Carousel } from "antd";
-import fist_slider from "../../assets/images/first_slider_img.jpeg";
-import heroes_img from "../../assets/images/heroes.jpg"
 import { Button } from "../../shared";
+import heroes_img from "../../assets/images/heroes.jpg";
 
 export const Home = () => {
   const navigate = useNavigate();
@@ -17,7 +16,7 @@ export const Home = () => {
   return (
     <main className={styles.wrapper}>
       <div className={styles.home}>
-        <video autoPlay loop muted>
+        <video autoPlay loop muted className={styles.home__video}>
           <source src={video} type="video/mp4" />
         </video>
         <section className={styles.home__title}>
@@ -34,6 +33,7 @@ export const Home = () => {
             <Button onClick={showAboutPage}>Learn more</Button>
           </div>
         </section>
+        <div className={styles.home__line}></div>
         <section className={styles.home__about}>
           <div className={styles.home__about_text}>
             <h2>Discover a new world</h2>
@@ -50,33 +50,48 @@ export const Home = () => {
               <Carousel autoplay>
                 <div>
                   <h3>New locations</h3>
-                  <img src={fist_slider} alt="" />
+                  <img
+                    src="https://images8.alphacoders.com/133/1330819.png"
+                    alt="Locations"
+                  />
                 </div>
                 <div>
                   <h3>Interesting story</h3>
-
-                  <img src={fist_slider} alt="" />
+                  <img
+                    src="https://images2.alphacoders.com/133/1337233.jpeg"
+                    alt="Story"
+                  />
                 </div>
                 <div>
                   <h3>Bloody battles</h3>
-
-                  <img src={fist_slider} alt="" />
+                  <img
+                    src="https://images3.alphacoders.com/133/1330813.png"
+                    alt="Battles"
+                  />
                 </div>
                 <div>
                   <h3>New characters</h3>
-                  <img src={fist_slider} alt="" />
+                  <img
+                    src="https://images5.alphacoders.com/132/1329225.jpeg"
+                    alt="Characters"
+                  />
                 </div>
               </Carousel>
             </div>
           </div>
         </section>
+        <div className={styles.home__line}></div>
         <section className={styles.home__hero}>
           <img src={heroes_img} alt="" />
-          <h2>Become the best player</h2>
+          <div className={styles.home__hero_content}>
+            <h2>Become the best player</h2>
+          </div>
         </section>
+        <div className={styles.home__line}></div>
         <section className={styles.home__forum}>
           <h2>Be the first to know everything</h2>
         </section>
+        <div className={styles.home__line}></div>
       </div>
     </main>
   );
