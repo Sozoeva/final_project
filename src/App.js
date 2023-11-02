@@ -3,6 +3,7 @@ import { Layout } from "./shared";
 import "./App.css";
 import { CharacterItem, Characters, Home } from "./pages";
 
+
 function App() {
   return (
     <Routes>
