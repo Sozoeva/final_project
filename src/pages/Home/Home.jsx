@@ -1,10 +1,9 @@
 import React from "react";
 import styles from "./Home.module.scss";
-import video from "../../assets/video/video.mp4";
 import { useNavigate } from "react-router";
 import { Carousel } from "antd";
 import { Button } from "../../shared";
-import heroes_img from "../../assets/images/heroes.jpg";
+import heroes_img from "../../assets/images/home_bgr.jpg";
 
 export const Home = () => {
   const navigate = useNavigate();
@@ -17,7 +16,7 @@ export const Home = () => {
     <main className={styles.wrapper}>
       <div className={styles.home}>
         <video autoPlay loop muted className={styles.home__video}>
-          <source src={video} type="video/mp4" />
+          <source src="https://cdn-mk1.mortalkombat.com/home/hero.mp4" type="video/mp4" />
         </video>
         <section className={styles.home__title}>
           <h1>Welcome to Mortal Combat</h1>
