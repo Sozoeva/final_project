@@ -13,7 +13,13 @@ function App() {
         <Route path="/history" element="History" />
         <Route path="/characters" element={<Characters/>} />
         <Route path="/characters/:id" element={<CharacterItem/>} />
+        <Route path="/about" element="About company" />
+        <Route path="/history" element="History" />
+        <Route path="/characters" element={<Characters/>} />
+        <Route path="/characters/:id" element={<CharacterItem/>} />
         <Route path="/forum" element="Forum" />
+        <Route path="/questions" element="FAQ" />
+        <Route path="/register" element="Register" />
         <Route path="/questions" element="FAQ" />
         <Route path="/register" element="Register" />
         <Route path="/profile" element="Profile" />
