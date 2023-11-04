@@ -10,6 +10,7 @@ export const Characters = () => {
   const { characters } = useSelector((state) => state.characters);
 
   useEffect(() => {
+
     dispatch(getCharacters());
   }, []);
 

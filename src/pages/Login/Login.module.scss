@@ -1,0 +1,58 @@
+@mixin display {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.wrapper {
+  position: relative;
+
+  .wrapper__img {
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+  }
+
+  .login {
+    padding: 20% 0;
+    background-color: rgba(0, 0, 65, 0.3);
+    @include display;
+
+    &__form {
+      @include display;
+
+      .login__password {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+
+        svg {
+          position: absolute;
+          right: -40%;
+          top: 20%;
+          font-size: 22px;
+          color: white;
+        }
+      }
+
+      &_input {
+        width: 190%;
+        padding: 10px 5px;
+        border-radius: 8px;
+        border: none;
+        color: white;
+        background-color: rgba(0, 0, 0, 0.8);
+
+        &::placeholder {
+          color: white;
+        }
+      }
+    }
+
+    button {
+      width: 180%;
+    }
+  }
+}

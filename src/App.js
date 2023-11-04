@@ -1,7 +1,7 @@
 import { Route, Routes } from "react-router";
 import { Layout } from "./shared";
 import "./App.css";
-import { CharacterItem, Characters, Home } from "./pages";
+import { CharacterItem, Characters, Home, Login, Register } from "./pages";
 
 
 function App() {
@@ -15,7 +15,8 @@ function App() {
         <Route path="/characters/:id" element={<CharacterItem/>} />
         <Route path="/forum" element="Forum" />
         <Route path="/questions" element="FAQ" />
-        <Route path="/register" element="Register" />
+        <Route path="/register" element={<Register/>} />
+        <Route path="/login" element={<Login/>} />
         <Route path="/profile" element="Profile" />
       </Route>
     </Routes>
