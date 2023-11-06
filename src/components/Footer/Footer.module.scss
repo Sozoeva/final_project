@@ -1,4 +1,57 @@
+@mixin display {
+  display: flex;
+  flex-direction: column;
+}
+
 .footer {
   background-color: black;
-  padding-top: 200px;
+
+  &__content {
+    padding: 5% 4%;
+    @include display;
+    gap: 40px;
+
+    &_media {
+      padding: 0 25%;
+      display: flex;
+      justify-content: space-around;
+
+      div {
+        color: white;
+
+        svg {
+          font-size: 35px;
+        }
+      }
+    }
+
+    &_title {
+      padding: 0 10%;
+      display: flex;
+      gap: 30px;
+      color: white;
+
+      &_about {
+        @include display;
+        gap: 10px;
+
+        p {
+          font-size: 12px;
+          text-align: justify;
+        }
+
+        &_WB {
+          width: 3%;
+        }
+
+        span {
+          font-size: 12px;
+        }
+      }
+
+      &_ERSB {
+        width: 20%;
+      }
+    }
+  }
 }
