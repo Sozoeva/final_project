@@ -7,7 +7,7 @@ import name from "../../assets/images/name.png";
 export const Header = () => {
   return (
     <header className={styles.header}>
-      <div className={`${styles.header__content} `}>
+      <div className={`${styles.header__content} ${'container'}`}>
         <nav className={styles.header__nav}>
           <div className={styles.header__nav_logo}>
             <div className={styles.logo}>
