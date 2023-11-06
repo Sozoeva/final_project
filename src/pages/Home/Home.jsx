@@ -1,22 +1,28 @@
-import React from "react";
+import React, { useEffect } from "react";
 import styles from "./Home.module.scss";
-import { useNavigate } from "react-router";
 import { Carousel } from "antd";
-import heroes_img from "../../assets/images/home_bgr.jpg"
+import heroes_img from "../../assets/images/home_bgr.jpg";
 import { Button } from "../../shared";
+import { useDispatch, useSelector } from "react-redux";
+import { getCharacters } from "../../store";
+import { Link } from "react-router-dom";
 
 export const Home = () => {
-  const navigate = useNavigate();
+  const dispatch = useDispatch();
+  const { characters } = useSelector((state) => state.characters);
 
-  const showAboutPage = () => {
-    navigate("/about");
-  };
+  useEffect(() => {
+    dispatch(getCharacters());
+  }, []);
 
   return (
     <main className={styles.wrapper}>
       <div className={styles.home}>
         <video autoPlay loop muted className={styles.home__video}>
-          <source src="https://cdn-mk1.mortalkombat.com/home/hero.mp4" type="video/mp4" />
+          <source
+            src="https://cdn-mk1.mortalkombat.com/home/hero.mp4"
+            type="video/mp4"
+          />
         </video>
         <section className={styles.home__title}>
           <h1>Welcome to Mortal Combat</h1>
@@ -29,7 +35,9 @@ export const Home = () => {
                 Watch trailer
               </a>
             </Button>
-            <Button onClick={showAboutPage}>Learn more</Button>
+            <Button>
+              <Link to="/about">Learn more</Link>
+            </Button>
           </div>
         </section>
         <div className={styles.home__line}></div>
@@ -81,9 +89,26 @@ export const Home = () => {
         </section>
         <div className={styles.home__line}></div>
         <section className={styles.home__hero}>
-          <img src={heroes_img} alt="" />
           <div className={styles.home__hero_content}>
             <h2>Become the best player</h2>
+            <div className={styles.home__hero_content_img}>
+
+              <Carousel autoplay>
+                {characters.slice(0, 5).map((character) => (
+                  <div key={character.id}>
+                    <div>
+                      <h3>{character.name}</h3>
+                      <img src={character.imagesLarge} alt="CharacterIng" className={styles.hero__img}/>
+                    </div>
+                  </div>
+                ))}
+              </Carousel>
+            </div>
+            <div>
+              <Button>
+                <Link to="/characters">More</Link>
+              </Button>
+            </div>
           </div>
         </section>
         <div className={styles.home__line}></div>

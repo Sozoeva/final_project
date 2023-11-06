@@ -1,7 +1,7 @@
 import { Route, Routes } from "react-router";
 import { Layout } from "./shared";
 import "./App.css";
-import { CharacterItem, Characters, Home, Login, Register } from "./pages";
+import { CharacterItem, Characters, Home, Login, Profile, Register } from "./pages";
 
 
 function App() {
@@ -17,7 +17,7 @@ function App() {
         <Route path="/questions" element="FAQ" />
         <Route path="/register" element={<Register/>} />
         <Route path="/login" element={<Login/>} />
-        <Route path="/profile" element="Profile" />
+        <Route path="/profile" element={<Profile/>} />
       </Route>
     </Routes>
   );

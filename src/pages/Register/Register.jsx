@@ -66,8 +66,9 @@ export const Register = () => {
             )}
           </div>
           <Button type="submit">Continue</Button>
-            <Link to="/login">Sing in</Link>
         </form>
+        <Link to="/login">Sing in</Link>
+
       </div>
     </section>
   );

@@ -232,7 +232,14 @@
       "style": "hand-to-hand"
     }
   ],
+  "hirtory": [],
   "users": [
-    
-  ]
+    {
+      "email": "alex007@gmail.com",
+      "password": "$2a$10$KWfRq.G/2quq6FpqKwjMiOUJOY0V8J4X1sRqEtWmKDA/GLLr56xxC",
+      "text": "Alex",
+      "id": 1
+    }
+  ],
+  "comments": []
 }
