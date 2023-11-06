@@ -1,11 +1,12 @@
 import React, { useEffect } from "react";
-import styles from "./Home.module.scss";
 import { Carousel } from "antd";
-import heroes_img from "../../assets/images/home_bgr.jpg";
 import { Button } from "../../shared";
 import { useDispatch, useSelector } from "react-redux";
 import { getCharacters } from "../../store";
+import video from '../../assets/video/video.mp4'
 import { Link } from "react-router-dom";
+import styles from "./Home.module.scss";
+
 
 export const Home = () => {
   const dispatch = useDispatch();
@@ -20,7 +21,7 @@ export const Home = () => {
       <div className={styles.home}>
         <video autoPlay loop muted className={styles.home__video}>
           <source
-            src="https://cdn-mk1.mortalkombat.com/home/hero.mp4"
+            src={video}
             type="video/mp4"
           />
         </video>
