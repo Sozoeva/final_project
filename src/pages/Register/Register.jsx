@@ -3,10 +3,10 @@ import styles from "./Register.module.scss";
 import { Button } from "../../shared";
 import { useForm } from "react-hook-form";
 import { useDispatch, useSelector } from "react-redux";
-import { registerUser } from "../../store/actions";
 import { useNavigate } from "react-router";
 import { Link } from "react-router-dom";
 import { AiTwotoneEyeInvisible, AiTwotoneEye } from "react-icons/ai";
+import { registerUser } from "../../store";
 
 export const Register = () => {
   const [ eye, setEye ] = useState(false);
@@ -14,7 +14,7 @@ export const Register = () => {
   const navigate = useNavigate();
 
   const dispatch = useDispatch();
-  const { userInfo } = useSelector((state) => state.users);
+  const { userInfo} = useSelector((state) => state.users);
 
   const onSubmit = (values) => {
     dispatch(registerUser(values));
@@ -22,7 +22,7 @@ export const Register = () => {
 
   useEffect(() => {
     if (localStorage.getItem("token")) {
-      navigate("/profile");
+      navigate("/");
     }
   }, [userInfo]);
 
@@ -41,9 +41,9 @@ export const Register = () => {
         >
           <input 
           className={styles.register__form_input}
-          type="text"
+          type="name"
           placeholder="Username"
-          {...register("text")}
+          {...register("username")}
           />
 
           <input
@@ -68,7 +68,6 @@ export const Register = () => {
           <Button type="submit">Continue</Button>
         </form>
         <Link to="/login">Sing in</Link>
-
       </div>
     </section>
   );

@@ -51,7 +51,6 @@ export const Home = () => {
               </p>
             </div>
             <div className={styles.home__about_content_imgs}>
-              <Carousel autoplay>
                 <div>
                   <h3>New locations</h3>
                   <img
@@ -80,25 +79,27 @@ export const Home = () => {
                     alt="Characters"
                   />
                 </div>
-              </Carousel>
             </div>
           </div>
         </section>
         <div className={styles.home__line}></div>
         <section className={styles.home__hero}>
           <div className={`${styles.home__hero_content} ${"container"}`}>
+            
             <h2>Become the best player</h2>
             <div className={styles.home__hero_content_img}>
-              {characters.slice(1, 4).map((character) => (
-                <div key={character.id}>
-                  <img
-                    src={character.imagesLarge}
-                    alt="CharacterIng"
-                    className={styles.hero__img}
-                  />
-                  <h3>{character.name}</h3>
-                </div>
-              ))}
+              <Carousel autoplay slidesToShow={3}>
+                {characters.slice(0, 7).map((character) => (
+                  <div key={character.id}>
+                    <h3>{character.name}</h3>
+                    <img
+                      src={character.imagesLarge}
+                      alt="CharacterIng"
+                      className={styles.hero__img}
+                    />
+                  </div>
+                ))}
+              </Carousel>
             </div>
             <div>
               <Button>
@@ -121,7 +122,12 @@ export const Home = () => {
                 tactfully debate strategies, and, of course, engage with each
                 other on various exciting topics.
               </p>
-              <video autoPlay loop muted className={styles.home__forum_content_video}>
+              <video
+                autoPlay
+                loop
+                muted
+                className={styles.home__forum_content_video}
+              >
                 <source
                   src="https://cdn-mk1.mortalkombat.com/media/kombat-pack.mp4"
                   type="video/mp4"

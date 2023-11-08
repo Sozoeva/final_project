@@ -236,8 +236,8 @@
   "users": [
     {
       "email": "s@gmail.com",
-      "password": "$2a$10$gb9sQ2FNhUzilGEHwMvV/eVK6mVL2Tq6ykt62HMDVzsWQHKdepqP6",
-      "text": "aaaa",
+      "password": "$2a$10$ENbpOTT8dVTrygNdW0tqAu/Y24j.bhCiOlzC4K7c2JOJoyrHlks2q",
+      "username": "Alina",
       "id": 1
     }
   ],

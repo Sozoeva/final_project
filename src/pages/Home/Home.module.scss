@@ -70,6 +70,9 @@
 
       &_imgs {
         width: 50%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 2%;
 
         h3 {
           font-size: 18px;
@@ -78,7 +81,7 @@
 
         img {
           width: 100%;
-          border: 6px solid rgba(150, 0, 24, 0.5);
+          border: 6px solid rgba(255, 255, 255);
         }
       }
     }
@@ -106,7 +109,7 @@
       }
 
       &_img {
-        display: flex;
+        // display: flex;
         width: 100%;
 
         h3 {
@@ -115,7 +118,7 @@
 
         .hero__img {
           width: 100%;
-          padding: 0 -80px;
+          // padding: 0 -80px;
         }
       }
     }

@@ -14,22 +14,34 @@ export const Footer = () => {
       <div className={`${styles.footer__content} ${"container"}`}>
         <div className={styles.footer__content_media}>
           <div>
+            <a href="https://www.youtube.com/MortalKombat">
             <AiFillYoutube />
+            </a>
           </div>
           <div>
+            <a href="https://www.instagram.com/mortalkombat/">
             <AiOutlineInstagram />
+            </a>
           </div>
           <div>
+            <a href="https://twitter.com/mortalkombat">
             <AiFillTwitterCircle />
+            </a>
           </div>
           <div>
+            <a href="https://www.tiktok.com/@mortalkombat">
             <BsTiktok />
+            </a>
           </div>
           <div>
+            <a href="https://www.twitch.tv/netherrealm">
             <SiTwitch />
+            </a>
           </div>
           <div>
+            <a href="https://discord.com/invite/mortalkombat">
             <BsDiscord />
+            </a>
           </div>
         </div>
         <div className={styles.footer__content_title}>

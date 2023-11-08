@@ -32,7 +32,7 @@ export const CharacterItem = () => {
           <h3>{selectedCharacter.name}</h3>
           <p>{selectedCharacter.description}</p>
           <span>
-          <button><BsPlayCircle/></button>
+          {/* <button><BsPlayCircle/></button> */}
           </span>
           <Link to="/characters">
           <Button>Back to list</Button>

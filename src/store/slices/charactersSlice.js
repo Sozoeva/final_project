@@ -27,5 +27,4 @@ export const charactersSlice = createSlice({
     }
 )
 
-
 export const {}  = charactersSlice.actions

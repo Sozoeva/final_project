@@ -2,10 +2,10 @@ import React, { useEffect, useState } from "react";
 import { Button } from "../../shared";
 import { useForm } from "react-hook-form";
 import { useDispatch, useSelector } from "react-redux";
-import { useNavigate } from "react-router";
+import { useNavigate} from "react-router";
 import { AiTwotoneEyeInvisible, AiTwotoneEye } from "react-icons/ai";
 import styles from "./Login.module.scss";
-import { loginUser } from "../../store/actions";
+import { loginUser } from "../../store";
 
 export const Login = () => {
   const [eye, setEye] = useState(false);
@@ -21,7 +21,7 @@ export const Login = () => {
 
   useEffect(() => {
     if (localStorage.getItem("token")) {
-      navigate("/profile");
+      navigate("/");
     }
   }, [userInfo]);
 
@@ -34,10 +34,7 @@ export const Login = () => {
       />
       <div className={styles.login}>
         <h2 className={styles.login__title}>Authorization</h2>
-        <form
-          onSubmit={handleSubmit(onSubmit)}
-          className={styles.login__form}
-        >
+        <form onSubmit={handleSubmit(onSubmit)} className={styles.login__form}>
           <input
             className={styles.login__form_input}
             type="email"
@@ -57,6 +54,7 @@ export const Login = () => {
               <AiTwotoneEyeInvisible onClick={() => setEye(!eye)} />
             )}
           </div>
+
           <Button type="submit">Sing in</Button>
         </form>
       </div>

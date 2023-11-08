@@ -1,18 +1,23 @@
 import { createSlice } from "@reduxjs/toolkit";
-import { loginUser, registerUser } from "../actions";
+import { getUserById, getUserInfo, loginUser, registerUser } from "../actions";
+
+const initialState = {
+  userInfo: null,
+};
 
 export const usersSlice = createSlice({
   name: "users",
-  initialState: {
-    userInfo: null,
-  },
+  initialState: {},
   reducers: {},
   extraReducers: {
     [registerUser.fulfilled]: (state, action) => {
       state.userInfo = action.payload;
     },
-    [loginUser.fulfilled]: (state,action) => {
-      state.userInfo = action.payload
-    }
+    [loginUser.fulfilled]: (state, action) => {
+      state.userInfo = action.payload;
+    },
+    [getUserById.fulfilled]: (state, action) => {
+      state.userInfo = action.payload;
+    },
   },
 });

@@ -1,16 +1,14 @@
 import React, { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { Link } from "react-router-dom";
-import { getCharacters } from "../../store";
+import { getCharacters, getUsers } from "../../store";
 import styles from "./Characters.module.scss";
-import bgr from "../../assets/images/bgr__mk1.jpg";
 
 export const Characters = () => {
   const dispatch = useDispatch();
   const { characters } = useSelector((state) => state.characters);
 
   useEffect(() => {
-
     dispatch(getCharacters());
   }, []);
 
