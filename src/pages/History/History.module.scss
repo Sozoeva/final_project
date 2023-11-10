@@ -1,0 +1,89 @@
+.history {
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.8);
+
+  &__bgr {
+    position: fixed;
+    width: 100%;
+    z-index: -1;
+  }
+
+  &__content {
+    padding: 12% 2%;
+  }
+
+  &__card {
+    color: rgba(255, 255, 255, 0.6);
+    padding: 1% 10%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 5fr;
+    align-items: center;
+
+    &_data {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      align-items: center;
+      gap: 20%;
+
+      h2 {
+        font-size: 54px;
+      }
+
+      svg {
+        font-size: 38px;
+      }
+
+      &_line {
+        color: rgba(255, 255, 255, 0.6);
+        width: 80%;
+        height: 302px;
+
+      }
+    }
+
+    &_content {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 10px;
+      text-align: center;
+      height: 260px;
+
+      background-color: rgba(0, 0, 0, 1);
+      position: relative;
+
+      border: 1px solid rgba(255, 255, 255, 0.6);
+      padding: 0% 0 0 3%;
+      transition: 0.3s;
+      opacity: 1.1;
+      cursor: pointer;
+
+      &_logo {
+        width: 30%;
+      }
+
+      &_name {
+        font-size: 20px;
+        float: right;
+        align-items: center;
+      }
+
+      &_img {
+        width: 200px;
+        height: 250px;
+      }
+
+      svg {
+        position: absolute;
+        z-index: 12;
+        font-size: 32px;
+        right: 10px;
+        color: white;
+      }
+
+      &:hover {
+        opacity: 0.8;
+      }
+    }
+  }
+}

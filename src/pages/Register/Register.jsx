@@ -41,7 +41,7 @@ export const Register = () => {
         >
           <input 
           className={styles.register__form_input}
-          type="name"
+          type="text"
           placeholder="Username"
           {...register("username")}
           />

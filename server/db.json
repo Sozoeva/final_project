@@ -232,14 +232,335 @@
       "style": "hand-to-hand"
     }
   ],
-  "hirtory": [],
-  "users": [
+  "history": [
     {
-      "email": "s@gmail.com",
-      "password": "$2a$10$ENbpOTT8dVTrygNdW0tqAu/Y24j.bhCiOlzC4K7c2JOJoyrHlks2q",
-      "username": "Alina",
-      "id": 1
+      "id": 1,
+      "logo": "https://www.mksecrets.net/images/mk1/mk1-logo01.jpg",
+      "name": "Mortal Kombat 1992",
+      "images": "https://upload.wikimedia.org/wikipedia/ru/thumb/4/47/Mortal_Kombat_SEGA_Genesis_Front.jpg/274px-Mortal_Kombat_SEGA_Genesis_Front.jpg",
+      "description": "Mortal Kombat is a 1992 fighting game developed and published by Midway. It is the first entry in the Mortal Kombat series and was subsequently released by Acclaim Entertainment for nearly every home platform at that time. The game focuses on several characters of various intentions who enter a martial arts tournament with worldly consequences.",
+      "data": 1992
+    },
+    {
+      "id": 2,
+      "logo": "https://media.vgm.io/products/13/10231/10231-1618004028.png",
+      "name": "Mortal Kombat II",
+      "images": "https://upload.wikimedia.org/wikipedia/en/d/df/Mortal_Kombat_II_boxart.png",
+      "description": "Mortal Kombat II is a fighting game originally produced by Midway for the arcades in 1993. It was ported to multiple home systems, including MS-DOS, Amiga, Game Boy, Game Gear, Sega Genesis, 32X, Sega Saturn, Super Nintendo Entertainment System, and PlayStation only in Japan, mostly in licensed versions developed by Probe Software (later renamed to Probe Entertainment for some ports of the game) and Sculptured Software and published by Acclaim Entertainment (currently distributed by Warner Bros. Interactive Entertainment).",
+      "data": 1993
+    },
+    {
+      "id": 3,
+      "logo": "https://images.launchbox-app.com/236f5204-648d-4980-97be-de84c9290372.png",
+      "name": "Mortal Kombat 3",
+      "images": "https://upload.wikimedia.org/wikipedia/en/9/9e/Mortal_Kombat_3_cover.JPG",
+      "description": "Mortal Kombat 3 is a 1995 arcade fighting game developed by Midway Games and first released into arcades in 1995. It is the third main installment in the Mortal Kombat franchise and a sequel to 1993's Mortal Kombat II. As in the previous games, it has a cast of characters that players choose from and guide through a series of battles against other opponents. ",
+      "data": 1995
+    },
+    {
+      "id": 4,
+      "logo": "https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/57d8f002bbe76e1a04c9170788b0a85a.png",
+      "name": "Mortal Kombat 4",
+      "images": "https://upload.wikimedia.org/wikipedia/en/c/c2/Mortal_Kombat_4_cover.jpg",
+      "description": "Mortal Kombat 4 is a 1997 fighting game, the fourth main installment in the Mortal Kombat franchise, and a sequel to 1995's Mortal Kombat 3. It was developed by Midway Games. Released to arcades in 1997, Mortal Kombat 4 is the first title in the series, and one of the first made by Midway overall, to use 3D computer graphics. It is also the last game of the series to have an arcade release. ",
+      "data": 1997
+    },
+    {
+      "id": 5,
+      "logo": "https://media.vgm.io/products/83/10238/10238-1618041889.png",
+      "name": "Mortal Kombat: Deadly Alliance",
+      "images": "https://upload.wikimedia.org/wikipedia/en/2/20/MKDAcover.jpg",
+      "description": "Mortal Kombat: Deadly Alliance is a 2002 fighting game developed and published by Midway for the Xbox, PlayStation 2, GameCube, and Game Boy Advance. It was the first all-new Mortal Kombat fighting game produced exclusively for home consoles, with no preceding arcade release. It is the fifth main installment in the Mortal Kombat franchise and a sequel to 1997's Mortal Kombat 4.",
+      "data": 2002
+    },
+    {
+      "id": 6,
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Mkdeceptionlogo.png",
+      "name": "Mortal Kombat: Deception",
+      "images": "https://upload.wikimedia.org/wikipedia/en/f/f2/Mortal_Kombat_-_Deception_Coverart.png",
+      "description": "Mortal Kombat: Deception is a 2004 fighting game developed and published by Midway. It is the sixth main installment in the Mortal Kombat franchise and a sequel to 2002's Mortal Kombat: Deadly Alliance. It was released for the PlayStation 2 and Xbox in October 2004, for the GameCube in March 2005 and later ported for the PlayStation Portable under the title Mortal Kombat: Unchained in November 2006. Mortal Kombat: Deception follows the storyline from the fifth installment.",
+      "data": 2004
+    },
+    {
+      "id": 7,
+      "logo": "https://images.launchbox-app.com/b3daa1b9-4a5b-4a50-b4d4-da07cb4ea340.png",
+      "name": "Mortal Kombat: Armageddon",
+      "images": "https://upload.wikimedia.org/wikipedia/en/e/e2/MKAPS2.jpg",
+      "description": "Mortal Kombat: Armageddon is a 2006 fighting game and it is the seventh main installment in the Mortal Kombat franchise and a sequel to 2004's Mortal Kombat: Deception. The PlayStation 2 and Xbox versions were released in October 2006, with a Wii version released on May 29, 2007 in North America. The Xbox version was not released in PAL territories.",
+      "data": 2006
+    },
+    {
+      "id": 8,
+      "logo": "https://www.fdmk.net/gallery/encyclopedia/games/mkvsdc_logo.png",
+      "name": "Mortal Kombat vs. DC Universe",
+      "images": "https://upload.wikimedia.org/wikipedia/en/6/6b/Mortal_Kombat_vs._DC_Universe_Coverart.png",
+      "description": "Mortal Kombat vs. DC Universe[a] is a 2008 fighting video game developed and published by Midway Games for the PlayStation 3 and Xbox 360. The game is a crossover between Mortal Kombat and the DC Universe, and is the eighth main installment in the Mortal Kombat franchise. The game was released on November 16, 2008.",
+      "data": 2008
+    },
+    {
+      "id": 9,
+      "logo": "https://www.mksecrets.net/images/mk9/logo02.png",
+      "name": "Mortal Kombat 2011",
+      "images": "https://upload.wikimedia.org/wikipedia/en/1/1f/Mortal_Kombat_box_art.png",
+      "description": "Mortal Kombat (also known as Mortal Kombat 9 (MK9)) is a 2011 fighting game developed by NetherRealm Studios and published by Warner Bros. Interactive Entertainment. It is the ninth main installment in the Mortal Kombat series and a soft reboot of the series. The game was released for the PlayStation 3 and Xbox 360 systems in April 2011.",
+      "data": 2011
+    },
+    {
+      "id": 10,
+      "logo": "https://cdn2.steamgriddb.com/file/sgdb-cdn/logo_thumb/3820fccb250037463096208fe8a48618.png",
+      "name": "Mortal Kombat X",
+      "images": "https://upload.wikimedia.org/wikipedia/en/d/d0/Mortal_Kombat_X_Cover_Art.png",
+      "description": "Mortal Kombat X[b] is a 2015 fighting game developed by NetherRealm Studios and published by Warner Bros. Interactive Entertainment for PlayStation 4, Windows, and Xbox One. Versions for the PlayStation 3 and Xbox 360 were also due to release, but both versions were cancelled. It is the tenth main installment in the Mortal Kombat series and a sequel to Mortal Kombat (2011), taking place 25 years later after the events of its predecessor. ",
+      "data": 2015
+    },
+    {
+      "id": 11,
+      "logo": "https://www.lemonskystudios.com/wp-content/uploads/logo_2020_mortalcombat11.png",
+      "name": "Mortal Kombat 11",
+      "images": "https://upload.wikimedia.org/wikipedia/en/7/7e/Mortal_Kombat_11_cover_art.png",
+      "description": "Mortal Kombat 11 is a 2019 fighting game developed by NetherRealm Studios and published by Warner Bros. Interactive Entertainment. It is the eleventh main installment in the Mortal Kombat series and a sequel to Mortal Kombat X (2015). The game was announced at The Game Awards 2018 and was released in North America and Europe on April 23, 2019.",
+      "data": 2019
+    },
+    {
+      "id": 12,
+      "logo": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/5fbef0ad-821e-42ff-bd50-c54a0742abc7/dfxdf6z-74deba24-522d-418d-87d4-1e03bf4b20cb.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzVmYmVmMGFkLTgyMWUtNDJmZi1iZDUwLWM1NGEwNzQyYWJjN1wvZGZ4ZGY2ei03NGRlYmEyNC01MjJkLTQxOGQtODdkNC0xZTAzYmY0YjIwY2IucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.7irtz-fBrcRQgWNo2mMYfAK5O1GoGOBjAriP8E0e66w",
+      "name": "Mortal Kombat 1",
+      "images": "https://upload.wikimedia.org/wikipedia/ru/f/f4/Mortal_Kombat_1_%282023%29_cover.jpeg",
+      "description": "Mortal Kombat 1 is a 2023 fighting game developed by NetherRealm Studios and published by Warner Bros. Games. It is the twelfth main installment in the Mortal Kombat series, and serves as its second reboot after 2011's Mortal Kombat (2011). The game was released on Nintendo Switch, PlayStation 5, Windows, and Xbox Series X/S on September 19, 2023.",
+      "data": 2023
     }
   ],
-  "comments": []
+  "users": [
+    {
+      "email": "User1@gmail.com",
+      "password": "$2a$10$7J64onOrUcLToBBamcTzLeuLD.NgCl8JRIO3hBGvgl7RUvfdR0oyG",
+      "username": "User8",
+      "id": 1,
+      "firstname": "gfd",
+      "lastname": "bfgfg",
+      "number": "3252",
+      "level": "5"
+    },
+    {
+      "email": "user2@gmail.com",
+      "password": "$2a$10$5FnYJi6iMfX6zHG.O7eSDuI8xxsM8lPwmzkx/p2MkrAG2Mom9Xq/y",
+      "username": "user2",
+      "id": 2,
+      "firstname": "user2",
+      "lastname": "user2",
+      "number": "0557911669",
+      "level": "5"
+    },
+    {
+      "email": "sozoeva.alina@gmail.com",
+      "password": "$2a$10$8ThSjbQYE9R4u1DrKUhCwOhpw8QcB7vjD7.9LgVp8lquaGH2n1./G",
+      "username": "tgbtyb5ybg",
+      "id": 3,
+      "firstname": "5tb5t5",
+      "lastname": "5tb5b5",
+      "number": "34567",
+      "level": "0"
+    },
+    {
+      "email": "sozoeva@gmail.com",
+      "password": "$2a$10$hhsMIp8ush.30sOfW4KTA.f7n8rl5rgDRL3uG17xvWrhY9XmPPFuG",
+      "username": "Alina Sozoeva",
+      "id": 4
+    },
+    {
+      "email": "s@gmail.com",
+      "password": "$2a$10$pcYdfwBxN7MS2NDZsCghBO2vWl1vRthsgj7mRmSs7fmcg/jFbAaN.",
+      "username": "3q34t34",
+      "id": 5
+    },
+    {
+      "email": "alex007@gmail.com",
+      "password": "$2a$10$8XWjgipgjulKaJD6SgOOBenItLa.rdLCm93R/pMlBzVIvoZR8b.EO",
+      "username": "qqq",
+      "id": 6
+    }
+  ],
+  "comments": [],
+  "news": [
+    {
+      "id": 1,
+      "title": "Mortal Kombat 11: Unleashing the Power of Frost",
+      "description": "Explore the chilling abilities of Frost in Mortal Kombat 11, as this cryomancer brings a new level of icy devastation to the roster of fighters.",
+      "tag": "character"
+    },
+    {
+      "id": 2,
+      "title": "Mortal Kombat Movie: Behind the Scenes of the Epic Adaptation",
+      "description": "Dive into the making of the Mortal Kombat movie, from the casting decisions to the intense fight choreography, capturing the essence of the beloved video game series.",
+      "tag": "news"
+    },
+    {
+      "id": 3,
+      "title": "Fatalities in Mortal Kombat: A Gruesome Tradition",
+      "description": "Delve into the history of Fatalities, the signature finishing moves in Mortal Kombat, showcasing the most brutal and iconic ways to end a fight in the game.",
+      "tag": "gameplay"
+    },
+    {
+      "id": 4,
+      "title": "Mortal Kombat Tournaments: Rise to the Top",
+      "description": "Witness the fierce competition of Mortal Kombat tournaments, where skilled players face off in intense battles to claim the title of the ultimate fighter.",
+      "tag": "news"
+    },
+    {
+      "id": 5,
+      "title": "Mortal Kombat Merchandise: Must-Have Items for Fans",
+      "description": "Explore the world of Mortal Kombat merchandise, featuring a range of collectibles, clothing, and accessories that allow fans to showcase their love for the iconic franchise.",
+      "tag": "character"
+    },
+    {
+      "id": 6,
+      "title": "Mortal Kombat Mobile: Fighting on the Go",
+      "description": "Experience Mortal Kombat on mobile devices, bringing the intense combat and iconic characters to the palm of your hand, with a focus on mobile-exclusive features and content.",
+      "tag": "character"
+    },
+    {
+      "id": 7,
+      "title": "Mortal Kombat Comics: Expanding the Universe",
+      "description": "Dive into the Mortal Kombat comic book series, where the rich lore of the game is expanded upon, featuring new storylines, characters, and unexpected twists.",
+      "tag": "news"
+    },
+    {
+      "id": 8,
+      "title": "Mortal Kombat Soundtrack: The Beat of Battle",
+      "description": "Immerse yourself in the sounds of Mortal Kombat, exploring the iconic soundtrack that enhances the intensity of the fights and contributes to the overall atmosphere of the game.",
+      "tag": "news"
+    },
+    {
+      "id": 9,
+      "title": "Mortal Kombat Legacy: Retelling the Story",
+      "description": "Discover Mortal Kombat Legacy, a web series that explores the backstories of iconic characters, providing a fresh perspective on the events of the Mortal Kombat universe.",
+      "tag": "character"
+    },
+    {
+      "id": 10,
+      "title": "Mortal Kombat Secrets: Easter Eggs and Hidden Gems",
+      "description": "Uncover the secrets of Mortal Kombat, from hidden Easter eggs within the games to obscure references and details that only the most dedicated fans can spot.",
+      "tag": "news"
+    },
+    {
+      "id": 11,
+      "title": "Mortal Kombat Characters: Iconic Fighters Through the Ages",
+      "description": "Take a journey through the history of Mortal Kombat characters, from the original lineup to the diverse and dynamic roster of fighters in the latest releases.",
+      "tag": "characters"
+    },
+    {
+      "id": 12,
+      "title": "Mortal Kombat Cosplay: Bringing Characters to Life",
+      "description": "Witness the creativity and skill of Mortal Kombat fans as they bring their favorite characters to life through stunning cosplay, showcasing intricate costumes and attention to detail.",
+      "tag": "news"
+    },
+    {
+      "id": 13,
+      "title": "Mortal Kombat Esports: Competitive Fighting at Its Peak",
+      "description": "Delve into the world of Mortal Kombat esports, where top players compete in high-stakes tournaments, showcasing exceptional skill, mind games, and intense matchups.",
+      "tag": "character"
+    },
+    {
+      "id": 14,
+      "title": "Mortal Kombat: The Art of Character Design",
+      "description": "Explore the artistic process behind designing iconic Mortal Kombat characters, from initial concept sketches to fully realized 3D models, highlighting the creative vision of the developers.",
+      "tag": "news"
+    },
+    {
+      "id": 15,
+      "title": "Mortal Kombat VR: Immersive Virtual Reality Battles",
+      "description": "Step into the virtual realm with Mortal Kombat VR, offering an immersive and visceral fighting experience that brings the brutal combat of the series to a new level of realism.",
+      "tag": "gameplay"
+    },
+    {
+      "id": 16,
+      "title": "Mortal Kombat Lore: Mythology and Mysteries Unveiled",
+      "description": "Unravel the mythology and mysterious elements of the Mortal Kombat universe, exploring ancient prophecies, divine realms, and the intricate connections between characters.",
+      "tag": "gameplay"
+    },
+    {
+      "id": 17,
+      "title": "Mortal Kombat Animations: From Games to Animated Features",
+      "description": "Experience Mortal Kombat in animated form, from in-game character animations to full-length animated features that bring the intense action and storytelling to a new medium.",
+      "tag": "animation"
+    },
+    {
+      "id": 18,
+      "title": "Mortal Kombat Music: Composing the Perfect Fight",
+      "description": "Dive into the world of composing music for Mortal Kombat, where the right soundtrack enhances the atmosphere of battles, intensifying the player's connection to the game.",
+      "tag": "animation"
+    },
+    {
+      "id": 19,
+      "title": "Mortal Kombat Crossovers: Unexpected Collaborations",
+      "description": "Discover unexpected crossovers featuring Mortal Kombat characters, from guest appearances in other games to unique collaborations that expand the universe of these iconic fighters.",
+      "tag": "gameplay"
+    },
+    {
+      "id": 20,
+      "title": "Mortal Kombat Collectors' Editions: Beyond the Standard Release",
+      "description": "Explore the world of Mortal Kombat collectors' editions, featuring exclusive content, physical collectibles, and unique packaging that caters to dedicated fans and collectors.",
+      "tag": "collectibles"
+    },
+    {
+      "id": 21,
+      "title": "Mortal Kombat Cosplay: Bringing Characters to Life",
+      "description": "Witness the creativity and skill of Mortal Kombat fans as they bring their favorite characters to life through stunning cosplay, showcasing intricate costumes and attention to detail.",
+      "tag": "animation"
+    },
+    {
+      "id": 22,
+      "title": "Mortal Kombat Esports: Competitive Fighting at Its Peak",
+      "description": "Delve into the world of Mortal Kombat esports, where top players compete in high-stakes tournaments, showcasing exceptional skill, mind games, and intense matchups.",
+      "tag": "animation"
+    },
+    {
+      "id": 23,
+      "title": "Mortal Kombat: The Art of Character Design",
+      "description": "Explore the artistic process behind designing iconic Mortal Kombat characters, from initial concept sketches to fully realized 3D models, highlighting the creative vision of the developers.",
+      "tag": "animation"
+    },
+    {
+      "id": 24,
+      "title": "Mortal Kombat VR: Immersive Virtual Reality Battles",
+      "description": "Step into the virtual realm with Mortal Kombat VR, offering an immersive and visceral fighting experience that brings the brutal combat of the series to a new level of realism.",
+      "tag": "gameplay"
+    },
+    {
+      "id": 25,
+      "title": "Mortal Kombat Lore: Mythology and Mysteries Unveiled",
+      "description": "Unravel the mythology and mysterious elements of the Mortal Kombat universe, exploring ancient prophecies, divine realms, and the intricate connections between characters.",
+      "tag": "animation"
+    },
+    {
+      "id": 26,
+      "title": "Mortal Kombat Animations: From Games to Animated Features",
+      "description": "Experience Mortal Kombat in animated form, from in-game character animations to full-length animated features that bring the intense action and storytelling to a new medium.",
+      "tag": "gameplay"
+    },
+    {
+      "id": 27,
+      "title": "Mortal Kombat Music: Composing the Perfect Fight",
+      "description": "Immerse yourself in the sounds of Mortal Kombat, exploring the iconic soundtrack that enhances the intensity of the fights and contributes to the overall atmosphere of the game.",
+      "tag": "news"
+    },
+    {
+      "id": 28,
+      "title": "Mortal Kombat Crossovers: Unexpected Collaborations",
+      "description": "Discover unexpected crossovers featuring Mortal Kombat characters, from guest appearances in other games to unique collaborations that expand the universe of these iconic fighters.",
+      "tag": "animation"
+    },
+    {
+      "id": 29,
+      "title": "Mortal Kombat Collectors' Editions: Beyond the Standard Release",
+      "description": "Explore the world of Mortal Kombat collectors' editions, featuring exclusive content, physical collectibles, and unique packaging that caters to dedicated fans and collectors.",
+      "tag": "news"
+    },
+    {
+      "id": 30,
+      "title": "Mortal Kombat: The Evolution of Female Characters",
+      "description": "Celebrate the evolution of female characters in Mortal Kombat, from their initial appearances to the empowering and diverse roster of fighters in the latest iterations of the series.",
+      "tag": "characters"
+    }
+  ]
 }

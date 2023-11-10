@@ -22,6 +22,8 @@ export const CharacterItem = () => {
     return <h1>Loading...</h1>;
   }
 
+
+
   return (
     <div className={styles.character}>
         <div className={styles.character__img}>

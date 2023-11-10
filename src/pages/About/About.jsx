@@ -1,8 +1,11 @@
 import React, { useEffect } from "react";
 import styles from "./About.module.scss";
 import { Carousel } from "antd";
+import { useDispatch, useSelector } from "react-redux";
+import { getForum } from "../../store";
 
 export const About = () => {
+
   return (
     <section className={styles.about}>
       <section className={styles.about__pack}>
@@ -33,8 +36,10 @@ export const About = () => {
           </video>
         </div>
       </section>
-      <div className={styles.about__line}></div>
-      <section className={styles.about__kameo}>
+      <video autoPlay loop muted className={styles.about__line}>
+          <source src="https://cdn-mk1.mortalkombat.com/static/fire-line-top-loop.mp4" type="video/mp4" />
+        </video>       
+         <section className={styles.about__kameo}>
         <div className={`${styles.about__kameo_about} ${"container"}`}>
           <div>
             <h2>KAMEO FIGHTERS</h2>
@@ -64,8 +69,10 @@ export const About = () => {
           </div>
         </div>
       </section>
-      <div className={styles.about__line}></div>
-      <section className={styles.about__location}>
+      <video autoPlay loop muted className={styles.about__line}>
+          <source src="https://cdn-mk1.mortalkombat.com/static/fire-line-top-loop.mp4" type="video/mp4" />
+        </video>  
+              <section className={styles.about__location}>
         <div>
           <img
             src="https://cdn-mk1.mortalkombat.com/game/story-env-b.jpg"
@@ -100,7 +107,9 @@ export const About = () => {
         </div>
         
       </section>
-      <div className={styles.about__line}></div>
-    </section>
+      <video autoPlay loop muted className={styles.about__line}>
+          <source src="https://cdn-mk1.mortalkombat.com/static/fire-line-top-loop.mp4" type="video/mp4" />
+        </video>  
+            </section>
   );
 };

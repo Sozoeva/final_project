@@ -1,8 +1,7 @@
 import React, { useEffect } from "react";
 import styles from "./Header.module.scss";
 import { Link, useNavigate } from "react-router-dom";
-import logo from "../../assets/images/logo.png";
-import name from "../../assets/images/name.png";
+import logo1 from "../../assets/images/logo1.png";
 import { useDispatch } from "react-redux";
 import { toast } from "react-toastify";
 import { getUserInfo } from "../../store";
@@ -29,20 +28,10 @@ export const Header = () => {
   return (
     <header className={styles.header}>
       <div className={`${styles.header__content} ${"container"}`}>
-        <nav className={styles.header__nav}>
-          <div className={styles.header__nav_logo}>
-            <div className={styles.logo}>
               <Link to="/">
-                <img src={logo} alt="logo" />
+                <img className={styles.header__logo} src={logo1} alt="logo" />
               </Link>
-            </div>
-            <div className={styles.name}>
-              <Link to="/">
-                <img src={name} alt="name" />
-              </Link>
-            </div>
-          </div>
-          <div className={styles.header__div}>
+          <div className={styles.header__nav}>
             <div className={styles.header__nav_links}>
               <Link
                 className={styles.header___nav_link}
@@ -65,9 +54,7 @@ export const Header = () => {
               </Link> */}
             </div>
             <div className={styles.header__nav_btns}>
-              <div>
-                <button>EN</button>
-              </div>
+              <button>En</button>
               {localStorage.getItem("token") ? (
                 <div className={styles.header__nav_btns_profile}>
                   <button onClick={singIn}>Profile</button>
@@ -82,7 +69,6 @@ export const Header = () => {
               )}
             </div>
           </div>
-        </nav>
       </div>
     </header>
   );

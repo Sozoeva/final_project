@@ -1,0 +1,27 @@
+.comment {
+  background-color: black;
+  color: white;
+
+  .comment__content {
+    padding: 15% 20%;
+
+    .forum__comments_news {
+      position: relative;
+    }
+
+    .forum__comments_btns {
+      position: absolute;
+      top: 0;
+      right: 0;
+    }
+
+    textarea {
+      width: 100%;
+      height: auto;
+      min-height: 250px;
+      overflow: auto;
+
+    
+    }
+  }
+}

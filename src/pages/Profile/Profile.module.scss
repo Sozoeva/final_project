@@ -1,20 +1,50 @@
+@mixin display {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+
 .profile {
   background-color: black;
   color: white;
 
+  h2 {
+    font-size: 28px;
+    color: white;
+  }
+
   &__content {
-    padding: 15% 20%;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    
-    &_user {
-      display: flex;
-      justify-content: space-between;
+    padding: 15% 4% 3% 4%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    &_about {
+      @include display;
+      gap: 40px;
 
       img {
-        width: 10%;
+        width: 20%;
         border-radius: 50%;
+      }
+
+      &_form {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+        div {
+          @include display;
+          width: 100%;
+
+          input {
+            padding: 2% 4%;
+            width: 150%;
+            background-color: transparent;
+            border: 1px solid;
+            border-radius: 5px;
+            color: white;
+          }
+        }
       }
     }
   }

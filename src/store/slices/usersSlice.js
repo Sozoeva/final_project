@@ -1,5 +1,5 @@
 import { createSlice } from "@reduxjs/toolkit";
-import { getUserById, getUserInfo, loginUser, registerUser } from "../actions";
+import { editUser, getUserById, loginUser, registerUser } from "../actions";
 
 const initialState = {
   userInfo: null,
@@ -7,7 +7,7 @@ const initialState = {
 
 export const usersSlice = createSlice({
   name: "users",
-  initialState: {},
+  initialState,
   reducers: {},
   extraReducers: {
     [registerUser.fulfilled]: (state, action) => {
@@ -17,6 +17,9 @@ export const usersSlice = createSlice({
       state.userInfo = action.payload;
     },
     [getUserById.fulfilled]: (state, action) => {
+      state.userInfo = action.payload;
+    },
+    [editUser.fulfilled]: (state, action) => {
       state.userInfo = action.payload;
     },
   },

@@ -20,7 +20,8 @@ export const registerUser = createAsyncThunk(
   }
 );
 
-export const loginUser = createAsyncThunk("loginUser", async (newUser) => {
+export const loginUser = createAsyncThunk("loginUser", 
+async (newUser) => {
   try {
     const { data } = await axios.post(
       `${process.env.REACT_APP_MAIN_URL}/login`,
@@ -51,7 +52,7 @@ export const getUserInfo = createAsyncThunk("getUserInfo", async () => {
   }
 });
 
-export const getUserById = createAsyncThunk("getUserById", async (id) => {
+export const getUserById = createAsyncThunk("getUserById", async () => {
   try {
     const id = localStorage.getItem("id")
     const { data } = await axios.get(
@@ -64,3 +65,19 @@ export const getUserById = createAsyncThunk("getUserById", async (id) => {
     console.error(error);
   }
 });
+
+
+export const editUser = createAsyncThunk("editUser", async (newData, { dispatch }) => {
+  try {
+
+    const { data } = await axios.patch(
+      `${process.env.REACT_APP_MAIN_URL}/users/${newData.id}`, newData
+    );
+    dispatch(getUserById())
+    toast.success("You have successfully updated your data!");
+    return data;
+  } catch (error) {
+    console.error(error);
+  }
+});
+

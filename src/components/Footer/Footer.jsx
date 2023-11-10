@@ -10,7 +10,7 @@ import { SiTwitch } from "react-icons/si";
 
 export const Footer = () => {
   return (
-    <section className={styles.footer}>
+    <footer className={styles.footer}>
       <div className={`${styles.footer__content} ${"container"}`}>
         <div className={styles.footer__content_media}>
           <div>
@@ -76,6 +76,6 @@ export const Footer = () => {
           />
         </div>
       </div>
-    </section>
+    </footer>
   );
 };
