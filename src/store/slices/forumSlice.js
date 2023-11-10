@@ -1,5 +1,5 @@
 import { createSlice } from "@reduxjs/toolkit";
-import { addComment, deleteComment, getComments, getForum } from "../actions";
+import { addComment, deleteComment, getComments, getNewsByCategory } from "../actions";
 
 const initialState = {
   comments: [],

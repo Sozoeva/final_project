@@ -30,9 +30,9 @@ export const getNews = createAsyncThunk(
 
   export const getNewsByCategory = createAsyncThunk(
     "getNewsByCategory",
-    async (params, { dispatch }) => {
+    async (arg, { dispatch }) => {
         try {
-            const { data } = await axios.get(`${process.env.REACT_APP_MAIN_URL}/news`, { params });
+            const { data } = await axios.get(`${process.env.REACT_APP_MAIN_URL}/news?tag=${arg}`);
             return data;
         } catch (error) {
             console.error(error);

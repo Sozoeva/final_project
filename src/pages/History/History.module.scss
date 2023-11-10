@@ -6,6 +6,8 @@
     position: fixed;
     width: 100%;
     z-index: -1;
+    height: 100vh;
+    object-fit: cover; 
   }
 
   &__content {

@@ -8,10 +8,15 @@
     z-index: -2;
   }
 
+  .home__line {
+    position: absolute;
+    width: 100%;
+  }
+
   h2 {
     font-size: 48px;
     text-align: center;
-    padding-top: 9%;
+    padding-top: 12%;
     text-transform: uppercase;
   }
 
@@ -24,17 +29,26 @@
 
     .character {
       position: relative;
-      transition: 0.3s;
+      transition: 0.5s;
 
       img {
         background-image: linear-gradient(
           to bottom,
-          rgba(150, 75, 0, 0.6),
+          rgba(0, 0, 255, 0.3),
           rgba(0, 0, 0, 1)
         );
         z-index: 12;
         width: 100%;
         border: 1px solid white;
+        transition: 0.3s;
+
+        &:hover{
+          background-image: linear-gradient(
+            to bottom,
+            rgba(255, 0, 0, 0.6),
+            rgba(0, 0, 0, 0.9)
+          );
+        }
       }
 
       &__name {
@@ -45,7 +59,8 @@
       }
 
       &:hover {
-        transform: scale(1.04);
+        transform: scale(1.03);
+        box-shadow: 0 0 40px rgba(255, 0, 0, 0.6);
       }
     }
   }

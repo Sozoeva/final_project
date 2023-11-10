@@ -1,12 +1,14 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import { useForm } from "react-hook-form";
 import { useDispatch, useSelector } from "react-redux";
 import { addComment, getNewsById, getUserById } from "../../store";
 import styles from "./ForumComments.module.scss";
+import { toast } from "react-toastify";
+import { Button } from "../../shared";
 
 export const ForumComments = () => {
   const dispatch = useDispatch();
-  const { register, handleSubmit } = useForm();
+  const { register, handleSubmit, reset } = useForm();
   const { userInfo } = useSelector((state) => state.users);
   const { selectedNews } = useSelector((state) => state.news);
 
@@ -20,21 +22,28 @@ export const ForumComments = () => {
 
   const onSubmit = (values) => {
     dispatch(addComment({ ...values, newsId: selectedNews.id }));
+    reset();
   };
 
   return (
     <div>
-      <form onSubmit={handleSubmit(onSubmit)} className={styles.forum__form}>
-        <p>{userInfo.username}</p>
-        <p>{userInfo.email}</p>
+      <div className="container">
+      <form onSubmit={handleSubmit(onSubmit)} className={styles.form}>
+        <div className={styles.form__content}>
+          
+        <h4> {userInfo.username}</h4>
         <input
-          className={styles.forum__form_input}
+          className={styles.form__input}
           type="comment"
           placeholder="Your comment"
-          {...register("comment")}
+          {...register("comment", { required: "Username is required" })}
         />
-        <button type="submit">Add</button>
+                <Button type="submit">Add</Button>
+
+        </div>
       </form>
+      </div>
+      
     </div>
   );
 };

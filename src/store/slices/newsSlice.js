@@ -17,11 +17,8 @@ export const newsSlice = createSlice({
     [getNewsById.fulfilled]: (state, action) => {
       state.selectedNews = action.payload;
     },
-    // [getNewsByCategory.fulfilled]: (state, action) => {
-    //   const newArr = state.news.filter(
-    //     (item) => item.category !== action.payload
-    //   );
-    //   state.news = newArr;
-    // },
+    [getNewsByCategory.fulfilled]: (state, action) => {
+      state.news = action.payload;
+    },
   },
 });

@@ -37,15 +37,3 @@ export const deleteComment = createAsyncThunk("deleteComment", async (id) => {
     toast.error("error");
   }
 });
-
-// export const getNews = createAsyncThunk(
-//   "getNews", 
-// async () => {
-//   try {
-//     const { data } = await axios.get(`${process.env.REACT_APP_MAIN_URL}/news`);
-//     console.log(data);
-//     return data;
-//   } catch (error) {
-//     toast.error(error.response.data);
-//   }
-// });

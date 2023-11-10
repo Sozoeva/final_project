@@ -7,11 +7,22 @@ import { BsNewspaper } from "react-icons/bs";
 import { PiGameControllerLight } from "react-icons/pi";
 import { GiNinjaHeroicStance } from "react-icons/gi";
 import { Link } from "react-router-dom";
-import { getNews } from "../../store";
+import { getNews, getNewsByCategory } from "../../store";
 
 export const Forum = () => {
   const dispatch = useDispatch();
   const { news } = useSelector((state) => state.news);
+  const [activeButton, setActiveButton] = useState("all");
+
+  const handleClickFilterBtn = (tag) => {
+    if (tag === "all") {
+      dispatch(getNews());
+      setActiveButton("all")
+    } else {
+      dispatch(getNewsByCategory(tag));
+      setActiveButton(tag);
+    }
+  };
 
   useEffect(() => {
     dispatch(getNews());
@@ -24,23 +35,36 @@ export const Forum = () => {
         alt=""
       />
 
-      <div className={styles.forum__content}>
+      <div className={`${styles.forum__content} ${'container'}`}>
         <div className={styles.forum__content_btns}>
+        <div>
+            <button  onClick={() => {
+              handleClickFilterBtn("all");
+            }}>All</button>
+          </div>
           <div>
             <BsNewspaper />
-            <button>News</button>
+            <button  onClick={() => {
+              handleClickFilterBtn("news");
+            }}>News</button>
           </div>
           <div>
             <PiGameControllerLight />
-            <button>Gameplay</button>
+            <button  onClick={() => {
+              handleClickFilterBtn("gameplay");
+            }}>Gameplay</button>
           </div>
           <div>
             <GiNinjaHeroicStance />
-            <button>About characters</button>
+            <button  onClick={() => {
+              handleClickFilterBtn("character");
+            }}>About characters</button>
           </div>
           <div>
             <AiFillFire />
-            <button>Animation</button>
+            <button  onClick={() => {
+              handleClickFilterBtn("animation");
+            }}>Animation</button>
           </div>
         </div>
         {news.map((item) => (
@@ -53,6 +77,7 @@ export const Forum = () => {
           </Link>
         ))}
       </div>
+      
     </section>
   );
 };

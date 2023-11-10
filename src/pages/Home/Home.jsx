@@ -5,7 +5,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { getCharacters } from "../../store";
 import { Link } from "react-router-dom";
 import video from "../../assets/video/video.mp4";
-import fire from "../../assets/video/fire.gif"
+import fire from "../../assets/video/fire.gif";
 import styles from "./Home.module.scss";
 
 export const Home = () => {
@@ -39,10 +39,12 @@ export const Home = () => {
           </div>
         </section>
         <video autoPlay loop muted className={styles.home__line}>
-          <source src="https://cdn-mk1.mortalkombat.com/static/fire-line-top-loop.mp4" type="video/mp4" />
+          <source
+            src="https://cdn-mk1.mortalkombat.com/static/fire-line-top-loop.mp4"
+            type="video/mp4"
+          />
         </video>
         <section className={styles.home__about}>
-
           <div className={`${styles.home__about_content} ${"container"}`}>
             <div className={styles.home__about_content_text}>
               <h2>Discover a new world</h2>
@@ -57,39 +59,49 @@ export const Home = () => {
             <div className={styles.home__about_content_imgs}>
               <div>
                 <h3>New locations</h3>
-                <img
-                  src="https://images8.alphacoders.com/133/1330819.png"
-                  alt="Locations"
-                />
+                <Link to="/about">
+                  <img
+                    src="https://images8.alphacoders.com/133/1330819.png"
+                    alt="Locations"
+                  />
+                </Link>
               </div>
               <div>
                 <h3>Interesting story</h3>
-                <img
-                  src="https://images2.alphacoders.com/133/1337233.jpeg"
-                  alt="Story"
-                />
+                <Link to="/about">
+                  <img
+                    src="https://images2.alphacoders.com/133/1337233.jpeg"
+                    alt="Story"
+                  />
+                </Link>
               </div>
               <div>
                 <h3>Bloody battles</h3>
-                <img
-                  src="https://images3.alphacoders.com/133/1330813.png"
-                  alt="Battles"
-                />
+                <Link to="/about">
+                  <img
+                    src="https://images3.alphacoders.com/133/1330813.png"
+                    alt="Battles"
+                  />
+                </Link>
               </div>
               <div>
                 <h3>New characters</h3>
-                <img
-                  src="https://images5.alphacoders.com/132/1329225.jpeg"
-                  alt="Characters"
-                />
+                <Link to="/about">
+                  <img
+                    src="https://images5.alphacoders.com/132/1329225.jpeg"
+                    alt="Characters"
+                  />
+                </Link>
               </div>
             </div>
           </div>
-
         </section>
         <video autoPlay loop muted className={styles.home__line}>
-          <source src="https://cdn-mk1.mortalkombat.com/static/fire-line-top-loop.mp4" type="video/mp4" />
-        </video>        
+          <source
+            src="https://cdn-mk1.mortalkombat.com/static/fire-line-top-loop.mp4"
+            type="video/mp4"
+          />
+        </video>
         <section className={styles.home__hero}>
           <div className={`${styles.home__hero_content} ${"container"}`}>
             <h2>Become the best player</h2>
@@ -115,10 +127,12 @@ export const Home = () => {
           </div>
         </section>
         <video autoPlay loop muted className={styles.home__line}>
-          <source src="https://cdn-mk1.mortalkombat.com/static/fire-line-top-loop.mp4" type="video/mp4" />
-        </video>        
+          <source
+            src="https://cdn-mk1.mortalkombat.com/static/fire-line-top-loop.mp4"
+            type="video/mp4"
+          />
+        </video>
         <section className={styles.home__forum}>
-
           <div className={`${styles.home__forum_content} ${"container"}`}>
             <div className={styles.home__forum_content_about}>
               <h2>Be the first to know everything</h2>
@@ -127,10 +141,10 @@ export const Home = () => {
                 thrill of discussing new releases, debating exciting duels, and
                 meeting like-minded individuals. Forum is a place where
                 passionate fans and players of Mortal Kombat can come together
-                as a unified community to discuss their favorite characters,
-                tactfully debate strategies, and, of course, engage with each
-                other on various exciting topics.
+                as a unified community to discuss their favorite characters.
               </p>
+              <Link to="/forum">
+
               <video
                 autoPlay
                 loop
@@ -142,6 +156,8 @@ export const Home = () => {
                   type="video/mp4"
                 />
               </video>
+              </Link>
+
             </div>
             <div className={styles.home__forum_content_img}>
               <img
@@ -150,12 +166,15 @@ export const Home = () => {
               />
             </div>
           </div>
-
         </section>
+
         <video autoPlay loop muted className={styles.home__line}>
-          <source src="https://cdn-mk1.mortalkombat.com/static/fire-line-top-loop.mp4" type="video/mp4" />
-        </video>      
-        </div>
+            <source
+              src="https://cdn-mk1.mortalkombat.com/static/fire-line-top-loop.mp4"
+              type="video/mp4"
+            />
+        </video>
+      </div>
     </main>
   );
 };

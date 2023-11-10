@@ -27,6 +27,12 @@ export const Characters = () => {
           </Link>
         ))}
       </div>
+      <video autoPlay loop muted className={styles.home__line}>
+          <source
+            src="https://cdn-mk1.mortalkombat.com/static/fire-line-top-loop.mp4"
+            type="video/mp4"
+          />
+        </video>
     </div>
   );
 };
