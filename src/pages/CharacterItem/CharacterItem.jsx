@@ -11,12 +11,7 @@ export const CharacterItem = () => {
   const { id } = useParams();
   const dispatch = useDispatch();
   const { selectedCharacter } = useSelector((state) => state.characters);
-  const [isHidden, setIsHedden] = useState(false);
-
-  const showVideo = () => {
-    setIsHedden(!isHidden);
-  };
-
+  
   useEffect(() => {
     dispatch(getCharacterById(id));
   }, []);
@@ -34,10 +29,6 @@ export const CharacterItem = () => {
         <h4>{selectedCharacter.characteristic}</h4>
         <h3>{selectedCharacter.name}</h3>
         <p>{selectedCharacter.description}</p>
-        <span onClick={showVideo}>
-          <AiOutlinePlayCircle />
-        </span>
-        {isHidden ? (
           <div>
             <iframe
               width="560"
@@ -49,7 +40,6 @@ export const CharacterItem = () => {
               allowfullscreen
             ></iframe>
           </div>
-        ) : null}
         <Link to="/characters">
           <Button>Back to list</Button>
         </Link>
