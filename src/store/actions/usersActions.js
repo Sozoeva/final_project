@@ -10,7 +10,7 @@ export const registerUser = createAsyncThunk(
         `${process.env.REACT_APP_MAIN_URL}/register`,
         newUser
       );
-      localStorage.setItem("id", data?.user?.id)
+      localStorage.setItem("id", data.user.id)
       localStorage.setItem("token", data.accessToken);
       toast.success("You have successfully registered!");
       return data.user;

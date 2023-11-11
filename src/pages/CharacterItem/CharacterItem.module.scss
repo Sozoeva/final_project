@@ -26,16 +26,26 @@
     gap: 10px;
 
     h4 {
-      font-size: 24px;
+      font-size: 1.5vw;
     }
 
     h3 {
-        font-size: 48px;
+        font-size: 2vw;
         text-transform: uppercase;
     }
 
     p {
-        font-size: 24px;
+        font-size: 1.3vw;
+    }
+
+    svg {
+      font-size: 2vw;
+      cursor: pointer;
+
+      &:hover {
+        color: rgba(13,110,253, 0.7);
+
+      }
     }
   }
 }

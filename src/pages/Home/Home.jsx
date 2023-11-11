@@ -5,8 +5,9 @@ import { useDispatch, useSelector } from "react-redux";
 import { getCharacters } from "../../store";
 import { Link } from "react-router-dom";
 import video from "../../assets/video/video.mp4";
-import fire from "../../assets/video/fire.gif";
 import styles from "./Home.module.scss";
+import { motion } from "framer-motion";
+import { animation } from "../../components/Animation/Animation";
 
 export const Home = () => {
   const dispatch = useDispatch();
@@ -46,18 +47,22 @@ export const Home = () => {
         </video>
         <section className={styles.home__about}>
           <div className={`${styles.home__about_content} ${"container"}`}>
-            <div className={styles.home__about_content_text}>
-              <h2>Discover a new world</h2>
-              <p>
+            <motion.div
+              initial="hidden"
+              whileInView="visible"
+              className={styles.home__about_content_text}
+            >
+              <motion.h2 variants={animation}>Discover a new world</motion.h2>
+              <motion.p variants={animation}>
                 Get ready for an incredible battle where magic meets brutal
                 moves! Enter the Mortal Kombat arena and prove your combat
                 skills! Crush your enemies using deadly combos and carve your
                 path to victory. Become a champion, fighting in the most
                 legendary battle of all time!
-              </p>
-            </div>
+              </motion.p>
+            </motion.div>
             <div className={styles.home__about_content_imgs}>
-              <div>
+              <motion.div initial="hidden" whileInView="visible">
                 <h3>New locations</h3>
                 <Link to="/about">
                   <img
@@ -65,7 +70,7 @@ export const Home = () => {
                     alt="Locations"
                   />
                 </Link>
-              </div>
+              </motion.div>
               <div>
                 <h3>Interesting story</h3>
                 <Link to="/about">
@@ -134,31 +139,36 @@ export const Home = () => {
         </video>
         <section className={styles.home__forum}>
           <div className={`${styles.home__forum_content} ${"container"}`}>
-            <div className={styles.home__forum_content_about}>
-              <h2>Be the first to know everything</h2>
-              <p>
+            <motion.div
+              initial="hidden"
+              whileInView="visible"
+              className={styles.home__forum_content_about}
+            >
+              <motion.h2 variants={animation}>
+                Be the first to know everything
+              </motion.h2>
+              <motion.p variants={animation}>
                 Don't miss the chance to join our community and experience the
                 thrill of discussing new releases, debating exciting duels, and
                 meeting like-minded individuals. Forum is a place where
                 passionate fans and players of Mortal Kombat can come together
                 as a unified community to discuss their favorite characters.
-              </p>
+              </motion.p>
               <Link to="/forum">
-
-              <video
-                autoPlay
-                loop
-                muted
-                className={styles.home__forum_content_video}
-              >
-                <source
-                  src="https://cdn-mk1.mortalkombat.com/media/kombat-pack.mp4"
-                  type="video/mp4"
-                />
-              </video>
+                <video
+                  variants={animation}
+                  autoPlay
+                  loop
+                  muted
+                  className={styles.home__forum_content_video}
+                >
+                  <source
+                    src="https://cdn-mk1.mortalkombat.com/media/kombat-pack.mp4"
+                    type="video/mp4"
+                  />
+                </video>
               </Link>
-
-            </div>
+            </motion.div>
             <div className={styles.home__forum_content_img}>
               <img
                 src="https://cdn-mk1.mortalkombat.com/home/liu-kang-wfire.webp"
@@ -169,10 +179,10 @@ export const Home = () => {
         </section>
 
         <video autoPlay loop muted className={styles.home__line}>
-            <source
-              src="https://cdn-mk1.mortalkombat.com/static/fire-line-top-loop.mp4"
-              type="video/mp4"
-            />
+          <source
+            src="https://cdn-mk1.mortalkombat.com/static/fire-line-top-loop.mp4"
+            type="video/mp4"
+          />
         </video>
       </div>
     </main>

@@ -343,35 +343,34 @@
       "password": "$2a$10$cBAtXlppME62phd1Qrsvl.IiFPCBX/J7GUfgsy.JCI51ohC8Scb3O",
       "username": "User2",
       "id": 2
-    }
-  ],
-  "comments": [
-    {
-      "comment": "hgbref",
-      "newsId": 1,
-      "id": 1
     },
     {
-      "comment": "Explore the chilling abilities of Frost in Mortal Kombat 11, as this cryomancer brings a new level of icy devastation to the roster of fighters. Delve into the world of Mortal Kombat esports, where top players compete in high-stakes tournaments, showcasing exceptional skill, mind games, and intense matchups.Mortal Kombat's influence extends beyond gaming into movies, animated series, and merchandise. The Mortal Kombat movie, with its intense fight choreography and faithful adaptation of the game's essence, has garnered a dedicated fan base.",
-      "newsId": 1,
-      "id": 2
+      "email": "sozoeva.alina@gmail.com",
+      "password": "$2a$10$TVSxMP1TnIWCP2exa0wTyOAhWZH/.yJIhY3dMJvsTfiTjqdxINDe.",
+      "username": "Alina Sozoeva",
+      "id": 3,
+      "firstname": "56h56h",
+      "level": "",
+      "lastname": "56h5"
     },
     {
-      "comment": "h6uj6uj",
-      "newsId": 2,
-      "id": 3
-    },
-    {
-      "comment": "fghuj",
-      "newsId": 1,
+      "email": "eg4h456hsozoeva.alina@gmail.com",
+      "password": "$2a$10$zVb7/ASc5d0UH/I3vNLVne0W0YSLTGVZ6X27ZMh3EXnDagFUCZdSq",
+      "username": "Alina Sozoeva",
       "id": 4
     },
     {
-      "comment": "rtgrtbrb",
-      "newsId": 1,
-      "id": 5
+      "email": "s@gmail.com",
+      "password": "$2a$10$OzDp/4OAi3w8.fVLx9yT1.Sax.7/0smnh4rW.TR71MV282bMQwJfu",
+      "username": "Alina Sozoeva",
+      "id": 5,
+      "firstname": "45t54t4",
+      "lastname": "4t45t4t",
+      "number": "45t4yt45",
+      "level": "449"
     }
   ],
+  "comments": [],
   "news": [
     {
       "id": 1,

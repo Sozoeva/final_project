@@ -1,25 +1,39 @@
 @mixin display {
   display: flex;
   flex-direction: column;
-  align-items: end;
 }
 
 .profile {
-  background-color: black;
   color: white;
+
+  &__bgr {
+    position: fixed;
+    width: 100%;
+    z-index: -2;
+    height: 100vh;
+    object-fit: cover;
+  }
 
   h2 {
     font-size: 28px;
     color: white;
+    margin-bottom: 0;
   }
 
   &__content {
-    padding: 15% 4% 3% 4%;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.9);
+
+    &_title {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 20%;
+    }
 
     &_about {
       @include display;
+      padding: 15% 20% 5% 20%;
       gap: 40px;
 
       img {
@@ -36,16 +50,49 @@
           @include display;
           width: 100%;
 
+          span {
+            font-size: 1.3vw;
+          }
+
           input {
+            font-size: 1.3vw;
             padding: 2% 4%;
-            width: 150%;
-            background-color: transparent;
+            width: 100%;
+            background-color: rgba(0, 0, 0, 0.6);
             border: 1px solid;
             border-radius: 5px;
             color: white;
           }
         }
       }
+    }
+  }
+
+  .editBtn {
+    background-color: rgba(13, 110, 253, 0.5);
+    padding: 10px 30px;
+    color: white;
+    border-radius: 10px 0 10px 0;
+    backdrop-filter: blur(60px);
+    border: none;
+    cursor: pointer;
+
+    &:hover {
+      background-color: rgba(13, 110, 253, 0.7);
+    }
+  }
+
+  .saveBtn {
+    background-color: rgba(0, 255, 0, 0.5);
+    padding: 10px 30px;
+    color: white;
+    border-radius: 10px 0 10px 0;
+    backdrop-filter: blur(60px);
+    border: none;
+    cursor: pointer;
+
+    &:hover {
+      background-color: rgba(0, 255, 0, 0.4);
     }
   }
 }

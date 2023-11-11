@@ -49,12 +49,8 @@ export const Header = () => {
               <Link className={styles.header__link} to="/forum">
                 Forum
               </Link>
-              {/* <Link className={styles.header__link} to="/questions">
-                FAQ
-              </Link> */}
             </div>
             <div className={styles.header__nav_btns}>
-              <button>En</button>
               {localStorage.getItem("token") ? (
                 <div className={styles.header__nav_btns_profile}>
                   <button onClick={singIn}>Profile</button>

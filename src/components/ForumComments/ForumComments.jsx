@@ -28,22 +28,19 @@ export const ForumComments = () => {
   return (
     <div>
       <div className="container">
-      <form onSubmit={handleSubmit(onSubmit)} className={styles.form}>
-        <div className={styles.form__content}>
-          
-        <h4> {userInfo.username}</h4>
-        <input
-          className={styles.form__input}
-          type="comment"
-          placeholder="Your comment"
-          {...register("comment", { required: "Username is required" })}
-        />
-                <Button type="submit">Add</Button>
-
-        </div>
-      </form>
+        <form onSubmit={handleSubmit(onSubmit)} className={styles.form}>
+          <div className={styles.form__content}>
+            <h4> {userInfo.username}</h4>
+            <input
+              className={styles.form__input}
+              type="comment"
+              placeholder="Your comment"
+              {...register("comment", { required: "Username is required" })}
+            />
+            <Button type="submit">Add</Button>
+          </div>
+        </form>
       </div>
-      
     </div>
   );
 };

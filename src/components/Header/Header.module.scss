@@ -1,6 +1,6 @@
 .header {
   padding: 20px 100px;
-  position: absolute;
+  position: fixed;
   width: 100%;
   background-image: linear-gradient(
     to bottom,
@@ -16,8 +16,13 @@
     gap: 3%;
 
     .header__logo {
-        width: 12vw;
+      width: 10vw;
     }
+
+    @media screen and (max-width: 920px) {
+      width: 8vw;
+    }
+
     .header__nav {
       display: flex;
       align-items: center;
@@ -35,9 +40,17 @@
           transition: 0.3s;
 
           &:hover {
-            background-color: rgba(229, 244, 255, 0.5);
+            background-color: rgba(13, 110, 253, 0.5);
           }
         }
+      }
+
+      @media screen and (max-width: 1200px) {
+        flex-wrap: wrap;
+        justify-content: center;
+        font-size: 12px;
+        gap: 10px;
+        padding: 5px 10px;
       }
 
       .header__nav_btns {
@@ -47,6 +60,7 @@
         button {
           padding: 10px 20px;
           background-color: transparent;
+          text-transform: uppercase;
           color: white;
           cursor: pointer;
           border: none;
@@ -55,8 +69,12 @@
           transition: 0.3s;
 
           &:hover {
-            background-color: rgba(229, 244, 255, 0.7);
+            background-color: rgba(13, 110, 253, 0.5);
           }
+        }
+
+        @media screen and (max-width: 1200px) {
+          padding: 5px 15px;
         }
 
         &_profile {
@@ -65,5 +83,12 @@
         }
       }
     }
+
+    // @media screen and (max-width: 920px) {
+    //   flex-wrap: wrap;
+    //   justify-content: center;
+    //   font-size: 12px;
+    //   gap: 10px;
+    // }
   }
 }
